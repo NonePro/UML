@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-01T07:01:52.467Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="7SbOL3ogsG66PnetfCfW" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-01T10:19:06.216Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="SfS9PDTSX8Aqtfwi54Xr" version="12.1.9" type="github" pages="3">
   <diagram id="cnwmBviyGtJt-cK1du4g" name="整体架构">
     <mxGraphModel dx="1956" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -314,8 +314,19 @@
           <mxGeometry x="80" y="400" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="Q_RkowIBjf-bF6edk9rD-8" value="财务系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Q_RkowIBjf-bF6edk9rD-1">
-          <mxGeometry x="280" y="80" width="120" height="60" as="geometry"/>
+          <mxGeometry x="400" y="80" width="120" height="60" as="geometry"/>
         </mxCell>
+        <mxCell id="ChiWszyA_spLi5E1_ay1-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="Q_RkowIBjf-bF6edk9rD-1">
+          <mxGeometry x="440" y="240" width="120" height="220" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YpOszma1E0C6XeDhaQ0w" name="Page-3">
+    <mxGraphModel dx="1467" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WeiTxBHwXRr_uXrwVCFI-0"/>
+        <mxCell id="WeiTxBHwXRr_uXrwVCFI-1" parent="WeiTxBHwXRr_uXrwVCFI-0"/>
       </root>
     </mxGraphModel>
   </diagram>
