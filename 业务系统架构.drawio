@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-11-01T05:45:30.468Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="cxsHWZVlfcXeIwd8-q3j" version="12.1.9" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-01T05:51:00.738Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="WVhvLk_hK3Gwz498MqeG" version="12.1.9" type="github" pages="1">
   <diagram id="cnwmBviyGtJt-cK1du4g" name="Page-1">
-    <mxGraphModel dx="1883" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1563" dy="904" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" style="" parent="0"/>
@@ -154,6 +154,45 @@
         </mxCell>
         <mxCell id="8HJTKwnla_Mx1hjEN-po-108" value="&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;基础设施&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
           <mxGeometry x="100" y="892.5" width="30" height="95" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-109" value="IOS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="220" y="170" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-110" value="Android" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="454" y="170" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-111" value="H5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="1156" y="170" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-112" value="PC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="688" y="170" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-113" value="微信小程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="922" y="170" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-114" value="各种小程序" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="1390" y="170" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-115" value="开放平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="220" y="280" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-116" value="小猪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="360" y="280" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-117" value="营销中台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="510" y="280" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-118" value="供给中台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="670" y="280" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-119" value="财务系统" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="810" y="280" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-120" value="小猪商城" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="970" y="280" width="80" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="8HJTKwnla_Mx1hjEN-po-121" value="BI平台" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="8HJTKwnla_Mx1hjEN-po-24">
+          <mxGeometry x="1190" y="280" width="80" height="50" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
