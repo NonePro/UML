@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-10-27T02:43:36.741Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="P4TNUqP8wfp6ykGRSBEw" version="12.1.5" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-11-06T06:23:21.698Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="nOx1XZ7XMBFWBt0TWQd0" version="12.2.0" type="github" pages="2">
   <diagram id="fSeqpYfcyn72X2kYvz7L" name="Page-1">
-    <mxGraphModel dx="1273" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1172" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0"/>
         <mxCell id="1" parent="0"/>
@@ -73,24 +73,32 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sjf7pfyFBC8L9vk5fxcS-1" value="&lt;h1&gt;议题&lt;/h1&gt;&lt;p&gt;1、产品中台建设与研发中台建设关系的思考与讨论&lt;/p&gt;&lt;p&gt;2、后续房源供给建设沟通&lt;/p&gt;&lt;p&gt;3、数据中台与业务中台协作方式探讨&lt;/p&gt;&lt;p&gt;4、围绕房源供给如何协调组织中台资源&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="Sjf7pfyFBC8L9vk5fxcS-1" value="&lt;h1&gt;议题&lt;/h1&gt;&lt;p&gt;1、产品中台建设与研发中台建设关系的思考与讨论&lt;/p&gt;&lt;p&gt;2、后续房源供给建设沟通&lt;/p&gt;&lt;p&gt;3、数据中台与业务中台协作方式探讨&lt;/p&gt;&lt;p&gt;4、围绕房源供给如何协调组织中台资源&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="120" y="520" width="300" height="200" as="geometry"/>
         </mxCell>
-        <mxCell id="Sjf7pfyFBC8L9vk5fxcS-2" value="营销中台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="Sjf7pfyFBC8L9vk5fxcS-2" value="营销中台" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
           <mxGeometry x="880" y="40" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="Sjf7pfyFBC8L9vk5fxcS-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OLZ6SszCJ7ay26lc_12v-4" target="OLZ6SszCJ7ay26lc_12v-3">
+        <mxCell id="Sjf7pfyFBC8L9vk5fxcS-3" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="OLZ6SszCJ7ay26lc_12v-4" target="OLZ6SszCJ7ay26lc_12v-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="450" y="200" as="sourcePoint"/>
             <mxPoint x="500" y="150" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Sjf7pfyFBC8L9vk5fxcS-4" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="OLZ6SszCJ7ay26lc_12v-22">
+        <mxCell id="Sjf7pfyFBC8L9vk5fxcS-4" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="OLZ6SszCJ7ay26lc_12v-22" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="460" y="100" as="sourcePoint"/>
             <mxPoint x="500" y="150" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RoVlP_3t8pCE2_T5q-xi" name="Page-2">
+    <mxGraphModel dx="1172" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="hDO_3Kpi2-s1eIORtsif-0"/>
+        <mxCell id="hDO_3Kpi2-s1eIORtsif-1" parent="hDO_3Kpi2-s1eIORtsif-0"/>
       </root>
     </mxGraphModel>
   </diagram>
