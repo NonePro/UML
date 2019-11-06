@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-06T08:23:15.191Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="ByWHIkqexIRQG0PuMxmD" version="12.2.0" type="github" pages="5">
+<mxfile host="www.draw.io" modified="2019-11-06T09:30:48.002Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="iw-70ToXDpMktzV9Qvgm" version="12.2.0" type="github" pages="5">
   <diagram id="cnwmBviyGtJt-cK1du4g" name="整体架构-逻辑图">
     <mxGraphModel dx="1883" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -456,7 +456,7 @@
         <mxCell id="I1If1aT0RqayvOJ23uVQ-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pgsd94VYxou8LFY7SyHi-1">
           <mxGeometry x="90" y="110" width="210" height="90" as="geometry"/>
         </mxCell>
-        <mxCell id="I1If1aT0RqayvOJ23uVQ-22" value="工作流定制" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pgsd94VYxou8LFY7SyHi-1">
+        <mxCell id="I1If1aT0RqayvOJ23uVQ-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pgsd94VYxou8LFY7SyHi-1">
           <mxGeometry x="300" y="110" width="260" height="90" as="geometry"/>
         </mxCell>
         <mxCell id="I1If1aT0RqayvOJ23uVQ-23" value="效果跟进" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pgsd94VYxou8LFY7SyHi-1">
@@ -488,6 +488,9 @@
         </mxCell>
         <mxCell id="I1If1aT0RqayvOJ23uVQ-34" value="及时圈选" style="rounded=1;whiteSpace=wrap;html=1;opacity=60;" vertex="1" parent="pgsd94VYxou8LFY7SyHi-1">
           <mxGeometry x="206" y="155" width="74" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="I1If1aT0RqayvOJ23uVQ-35" value="&lt;b&gt;工作流定制&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=60;" vertex="1" parent="pgsd94VYxou8LFY7SyHi-1">
+          <mxGeometry x="301" y="117" width="20" height="70" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
