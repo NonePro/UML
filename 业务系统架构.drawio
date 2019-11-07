@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-07T12:59:04.822Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="qfbFrMWFSdYA5gvFVxof" version="12.2.2" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-07T13:01:40.601Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="YL5BPlEH4kLtdEDeHTy7" version="12.2.2" type="github" pages="6">
   <diagram id="cnwmBviyGtJt-cK1du4g" name="整体架构-逻辑图">
     <mxGraphModel dx="2390" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -566,21 +566,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="COB9rBf7KOF2thxPNRjb-18" value="" style="group" vertex="1" connectable="0" parent="COB9rBf7KOF2thxPNRjb-1">
-          <mxGeometry x="430" y="350" width="373" height="40" as="geometry"/>
+          <mxGeometry x="430" y="330" width="373" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="COB9rBf7KOF2thxPNRjb-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-18">
           <mxGeometry width="373" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="COB9rBf7KOF2thxPNRjb-17" value="发票" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-18">
+        <mxCell id="COB9rBf7KOF2thxPNRjb-17" value="保险" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-18">
           <mxGeometry x="151.5" y="10" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="COB9rBf7KOF2thxPNRjb-19" value="" style="group" vertex="1" connectable="0" parent="COB9rBf7KOF2thxPNRjb-1">
-          <mxGeometry x="430" y="260" width="373" height="40" as="geometry"/>
+          <mxGeometry x="427" y="260" width="373" height="40" as="geometry"/>
         </mxCell>
         <mxCell id="COB9rBf7KOF2thxPNRjb-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-19">
           <mxGeometry width="373" height="40" as="geometry"/>
         </mxCell>
-        <mxCell id="COB9rBf7KOF2thxPNRjb-15" value="发票" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-19">
+        <mxCell id="COB9rBf7KOF2thxPNRjb-15" value="预订服务费" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-19">
+          <mxGeometry x="152" y="10" width="69" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="COB9rBf7KOF2thxPNRjb-24" value="房费" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-1">
+          <mxGeometry x="390" y="50" width="40" height="20" as="geometry"/>
+        </mxCell>
+        <mxCell id="COB9rBf7KOF2thxPNRjb-25" value="" style="group" vertex="1" connectable="0" parent="COB9rBf7KOF2thxPNRjb-1">
+          <mxGeometry x="430" y="400" width="373" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="COB9rBf7KOF2thxPNRjb-26" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-25">
+          <mxGeometry width="373" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="COB9rBf7KOF2thxPNRjb-27" value="发票" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="COB9rBf7KOF2thxPNRjb-25">
           <mxGeometry x="151.5" y="10" width="40" height="20" as="geometry"/>
         </mxCell>
       </root>
