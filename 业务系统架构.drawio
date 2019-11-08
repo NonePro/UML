@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T03:52:25.945Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="87I3R0uoq6h6KCEuBxp2" version="12.2.2" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-08T03:55:16.997Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="KW_4sX-lWK5WBlL9TvKp" version="12.2.2" type="github" pages="6">
   <diagram id="cnwmBviyGtJt-cK1du4g" name="整体架构-逻辑图">
     <mxGraphModel dx="2390" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -538,21 +538,21 @@
             <mxPoint x="1" as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7zeo3VJ6hRCmlBEQHJ0d-8" value="" style="endArrow=classic;html=1;strokeColor=#FFCE9F;strokeWidth=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pgsd94VYxou8LFY7SyHi-1" source="I1If1aT0RqayvOJ23uVQ-9" target="I1If1aT0RqayvOJ23uVQ-10">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="560" y="600" as="sourcePoint"/>
-            <mxPoint x="610" y="550" as="targetPoint"/>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="7zeo3VJ6hRCmlBEQHJ0d-9" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#d79b00;strokeWidth=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;" edge="1" parent="pgsd94VYxou8LFY7SyHi-1" target="I1If1aT0RqayvOJ23uVQ-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="780" y="220" as="sourcePoint"/>
             <mxPoint x="560" y="300" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7zeo3VJ6hRCmlBEQHJ0d-10" value="运营数据流" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="7zeo3VJ6hRCmlBEQHJ0d-9">
+        <mxCell id="7zeo3VJ6hRCmlBEQHJ0d-10" value="外部数据" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="7zeo3VJ6hRCmlBEQHJ0d-9">
           <mxGeometry x="-0.25" y="1" relative="1" as="geometry">
             <mxPoint x="1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7zeo3VJ6hRCmlBEQHJ0d-11" value="" style="shape=flexArrow;endArrow=classic;html=1;strokeColor=#d79b00;strokeWidth=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;fillColor=#ffe6cc;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="pgsd94VYxou8LFY7SyHi-1" source="I1If1aT0RqayvOJ23uVQ-9" target="I1If1aT0RqayvOJ23uVQ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="505.98" y="347.53999999999996" as="sourcePoint"/>
+            <mxPoint x="563" y="412.5" as="targetPoint"/>
           </mxGeometry>
         </mxCell>
       </root>
