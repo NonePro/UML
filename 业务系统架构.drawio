@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-08T10:27:52.822Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="Bv3zhcbv0K69QF-SbVXD" version="12.2.2" type="github" pages="6">
+<mxfile host="www.draw.io" modified="2019-11-08T10:43:51.165Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36" etag="EpEsP9GFHnF_o2SmmgsZ" version="12.2.2" type="github" pages="6">
   <diagram id="cnwmBviyGtJt-cK1du4g" name="整体架构-逻辑图">
     <mxGraphModel dx="2390" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -342,12 +342,12 @@
     </mxGraphModel>
   </diagram>
   <diagram id="kkt42NhnyP5k8ox0an1k" name="供给中台">
-    <mxGraphModel grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" page="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1195" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="pgsd94VYxou8LFY7SyHi-0"/>
         <mxCell id="pgsd94VYxou8LFY7SyHi-1" parent="pgsd94VYxou8LFY7SyHi-0"/>
         <mxCell id="I1If1aT0RqayvOJ23uVQ-29" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;opacity=60;" parent="pgsd94VYxou8LFY7SyHi-1" vertex="1">
-          <mxGeometry x="573" y="270" width="227" height="220" as="geometry"/>
+          <mxGeometry x="573" y="270" width="237" height="220" as="geometry"/>
         </mxCell>
         <mxCell id="I1If1aT0RqayvOJ23uVQ-28" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;opacity=60;" parent="pgsd94VYxou8LFY7SyHi-1" vertex="1">
           <mxGeometry x="73" y="270" width="500" height="220" as="geometry"/>
@@ -562,7 +562,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7zeo3VJ6hRCmlBEQHJ0d-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pgsd94VYxou8LFY7SyHi-1">
-          <mxGeometry x="590" y="40" width="210" height="180" as="geometry"/>
+          <mxGeometry x="590" y="40" width="220" height="180" as="geometry"/>
         </mxCell>
         <mxCell id="7zeo3VJ6hRCmlBEQHJ0d-18" value="比价精灵" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="pgsd94VYxou8LFY7SyHi-1">
           <mxGeometry x="610" y="55" width="90" height="45" as="geometry"/>
