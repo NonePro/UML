@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-26T07:48:29.367Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="CQ3NCaTRvcHSUBUsW0Zi" version="12.2.9" type="github" pages="7">
+<mxfile host="www.draw.io" modified="2019-11-26T08:57:23.646Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36" etag="xkZO7SVlMtC0Dnps2fPY" version="12.2.9" type="github" pages="7">
   <diagram id="cnwmBviyGtJt-cK1du4g" name="整体架构-逻辑图">
     <mxGraphModel dx="1643" dy="947" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -919,12 +919,12 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="FCwjxaqpSjpLo4A2vKeG" name="Page-7">
+  <diagram id="FCwjxaqpSjpLo4A2vKeG" name="研发能力属性">
     <mxGraphModel dx="1232" dy="710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dfVSnMu_5ZVxIBhEoGfM-0"/>
         <mxCell id="dfVSnMu_5ZVxIBhEoGfM-1" parent="dfVSnMu_5ZVxIBhEoGfM-0"/>
-        <mxCell id="ec8nmeyWK5TT3VeMwEsK-0" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
+        <mxCell id="ec8nmeyWK5TT3VeMwEsK-0" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
           <mxGeometry x="323" y="250" width="180" height="180" as="geometry"/>
         </mxCell>
         <mxCell id="ec8nmeyWK5TT3VeMwEsK-1" value="&lt;b&gt;价值观&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
@@ -942,13 +942,13 @@
         <mxCell id="ec8nmeyWK5TT3VeMwEsK-6" value="&lt;b&gt;情绪管理&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
           <mxGeometry x="430" y="370" width="37" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="ec8nmeyWK5TT3VeMwEsK-7" value="&lt;b&gt;业务能力&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
+        <mxCell id="ec8nmeyWK5TT3VeMwEsK-7" value="&lt;b&gt;业务能力&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
           <mxGeometry x="374.5" y="200" width="80" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="ec8nmeyWK5TT3VeMwEsK-8" value="&lt;b&gt;技术能力&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
+        <mxCell id="ec8nmeyWK5TT3VeMwEsK-8" value="&lt;b&gt;技术能力&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
           <mxGeometry x="273" y="330" width="80" height="80" as="geometry"/>
         </mxCell>
-        <mxCell id="ec8nmeyWK5TT3VeMwEsK-9" value="&lt;b&gt;管理能力&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
+        <mxCell id="ec8nmeyWK5TT3VeMwEsK-9" value="&lt;b&gt;管理能力&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="dfVSnMu_5ZVxIBhEoGfM-1">
           <mxGeometry x="480" y="330" width="80" height="80" as="geometry"/>
         </mxCell>
       </root>
