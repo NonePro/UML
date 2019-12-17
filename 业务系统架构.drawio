@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-17T09:19:37.620Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="tA7XPNlQFaMb3x0I4qqN" version="12.4.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-12-17T09:31:23.743Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="eL2hLrop6LRZ3XQnQ87D" version="12.4.2" type="github" pages="9">
   <diagram id="m-3Kd5v_KkX7SUyNV3uM" name="业务中台功能视图">
     <mxGraphModel dx="1137" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -996,7 +996,7 @@
         <mxCell id="g4OyJOZsPJletJOQ2g-l-36" value="储纪鲁" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4OyJOZsPJletJOQ2g-l-28">
           <mxGeometry x="357" y="460" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="g4OyJOZsPJletJOQ2g-l-37" value="靳久哲" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4OyJOZsPJletJOQ2g-l-28">
+        <mxCell id="g4OyJOZsPJletJOQ2g-l-37" value="靳久哲" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4OyJOZsPJletJOQ2g-l-28">
           <mxGeometry x="457" y="460" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="g4OyJOZsPJletJOQ2g-l-38" value="刘渤" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4OyJOZsPJletJOQ2g-l-28">
