@@ -1,6 +1,6 @@
-<mxfile host="www.draw.io" modified="2019-12-21T08:16:04.332Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="g0RIR-5ne6PBmMXMDszk" version="12.4.2" type="github" pages="9">
+<mxfile host="www.draw.io" modified="2019-12-24T02:10:07.253Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="EBMQf6eTrEwecM45zjOA" version="12.4.2" type="github" pages="9">
   <diagram id="m-3Kd5v_KkX7SUyNV3uM" name="业务中台功能视图">
-    <mxGraphModel dx="1137" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1347" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="vQ10cfYrCqLOtbo8QFiQ-0"/>
         <mxCell id="vQ10cfYrCqLOtbo8QFiQ-1" parent="vQ10cfYrCqLOtbo8QFiQ-0"/>
@@ -1053,7 +1053,7 @@
         <mxCell id="g4OyJOZsPJletJOQ2g-l-48" value="贾龙龙" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4OyJOZsPJletJOQ2g-l-28">
           <mxGeometry x="1631" y="460" width="40" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="g4OyJOZsPJletJOQ2g-l-49" value="贾龙龙" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4OyJOZsPJletJOQ2g-l-28">
+        <mxCell id="g4OyJOZsPJletJOQ2g-l-49" value="兰华宝" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4OyJOZsPJletJOQ2g-l-28">
           <mxGeometry x="1731" y="460" width="40" height="20" as="geometry"/>
         </mxCell>
         <mxCell id="g4OyJOZsPJletJOQ2g-l-50" value="马欢" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="g4OyJOZsPJletJOQ2g-l-28">
@@ -1069,7 +1069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="812q2BW4PpKHHnvlU9CW" name="整体架构-产品视图">
-    <mxGraphModel dx="1364" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1616" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="oj0iSMJ9Xrmi0MgTtxV8-0"/>
         <mxCell id="oj0iSMJ9Xrmi0MgTtxV8-1" parent="oj0iSMJ9Xrmi0MgTtxV8-0"/>
@@ -1554,7 +1554,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DylnTLYAmpPKyRwsdu1U" name="维度">
-    <mxGraphModel dx="1364" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1616" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ixD7rV750vfuKtrWNaFz-0"/>
         <mxCell id="ixD7rV750vfuKtrWNaFz-1" parent="ixD7rV750vfuKtrWNaFz-0"/>
@@ -1586,7 +1586,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="FCwjxaqpSjpLo4A2vKeG" name="研发能力属性">
-    <mxGraphModel dx="1364" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1616" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dfVSnMu_5ZVxIBhEoGfM-0"/>
         <mxCell id="dfVSnMu_5ZVxIBhEoGfM-1" parent="dfVSnMu_5ZVxIBhEoGfM-0"/>
@@ -1621,7 +1621,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="A6nHcbAB88LDrTH5Vayo" name="Page-9">
-    <mxGraphModel dx="2191" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2443" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="YpIz3qFFwXEfIQZC2t10-0"/>
         <mxCell id="YpIz3qFFwXEfIQZC2t10-1" parent="YpIz3qFFwXEfIQZC2t10-0"/>
