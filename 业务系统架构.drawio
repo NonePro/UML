@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-29T02:49:56.104Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="RI0NG2w3x82G58f6D7pX" version="12.4.7" type="github" pages="8">
+<mxfile host="www.draw.io" modified="2019-12-29T02:50:40.316Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="XYMvnhIJ5m8Ly0LVZ5__" version="12.4.7" type="github" pages="8">
   <diagram id="m-3Kd5v_KkX7SUyNV3uM" name="业务中台功能视图">
     <mxGraphModel dx="1553" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1531,7 +1531,7 @@
         <mxCell id="5kJtZfrDOj-c70kt-AkA-117" value="房东中心" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="5kJtZfrDOj-c70kt-AkA-105">
           <mxGeometry x="930.35" y="326.04" width="62.78" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="5kJtZfrDOj-c70kt-AkA-118" value="&lt;font style=&quot;font-size: 8px&quot;&gt;经营指导&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5kJtZfrDOj-c70kt-AkA-105">
+        <mxCell id="5kJtZfrDOj-c70kt-AkA-118" value="&lt;font style=&quot;font-size: 10px&quot;&gt;经营指导&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5kJtZfrDOj-c70kt-AkA-105">
           <mxGeometry x="900" y="352" width="40" height="28" as="geometry"/>
         </mxCell>
         <mxCell id="5kJtZfrDOj-c70kt-AkA-119" value="钱包" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="5kJtZfrDOj-c70kt-AkA-105">
