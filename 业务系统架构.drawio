@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-30T02:01:39.112Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="665jhtieK3Qz4HY70qRI" version="12.4.7" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-12-30T05:52:52.074Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="d2JIiHA9z9_3waokz009" version="12.4.7" type="github" pages="10">
   <diagram id="m-3Kd5v_KkX7SUyNV3uM" name="业务中台功能视图">
     <mxGraphModel dx="1581" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1382,7 +1382,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CXThyQGTN9_G2QLNLMMF" name="用户中心2020">
-    <mxGraphModel dx="2682" dy="1454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1341" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="znvPev2Ul2fMGLZ_2JRQ-0"/>
         <mxCell id="znvPev2Ul2fMGLZ_2JRQ-1" style="" parent="znvPev2Ul2fMGLZ_2JRQ-0"/>
@@ -2125,17 +2125,11 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="Py4lNCWzpk2McuDkUZNY" name="财务中心">
+  <diagram id="Py4lNCWzpk2McuDkUZNY" name="财务中心2020">
     <mxGraphModel dx="1341" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Q_RkowIBjf-bF6edk9rD-0"/>
         <mxCell id="Q_RkowIBjf-bF6edk9rD-1" parent="Q_RkowIBjf-bF6edk9rD-0"/>
-        <mxCell id="Q_RkowIBjf-bF6edk9rD-3" value="收银台" style="rounded=0;whiteSpace=wrap;html=1;" parent="Q_RkowIBjf-bF6edk9rD-1" vertex="1">
-          <mxGeometry x="80" y="80" width="120" height="60" as="geometry"/>
-        </mxCell>
-        <mxCell id="Q_RkowIBjf-bF6edk9rD-8" value="财务系统" style="rounded=0;whiteSpace=wrap;html=1;" parent="Q_RkowIBjf-bF6edk9rD-1" vertex="1">
-          <mxGeometry x="400" y="80" width="120" height="60" as="geometry"/>
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
