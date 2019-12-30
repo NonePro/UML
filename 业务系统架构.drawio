@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-30T07:26:51.213Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="YK8gRILkPWg1n6qvNGAf" version="12.4.7" type="github" pages="10">
+<mxfile host="www.draw.io" modified="2019-12-30T08:02:05.105Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="Z-w_AnDdjL9nErj0isDT" version="12.4.7" type="github" pages="10">
   <diagram id="m-3Kd5v_KkX7SUyNV3uM" name="业务中台功能视图">
     <mxGraphModel dx="1581" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1382,7 +1382,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CXThyQGTN9_G2QLNLMMF" name="用户中心2020">
-    <mxGraphModel dx="1341" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1341" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="znvPev2Ul2fMGLZ_2JRQ-0"/>
         <mxCell id="znvPev2Ul2fMGLZ_2JRQ-1" style="" parent="znvPev2Ul2fMGLZ_2JRQ-0"/>
@@ -1801,14 +1801,14 @@
         <mxCell id="1-EH0mF0fKl0FWAkhu1p-215" value="&lt;h1&gt;演进方向：&lt;/h1&gt;&lt;p&gt;1.本系统核心定位用户服务管理前台。由于平台BFF的缺失承担了部分BFF的工作。长期演进方向是BFF功能向上传递到BFF系统，用户服务聚合向下沉淀到服务网关。&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;opacity=90;" parent="1-EH0mF0fKl0FWAkhu1p-207" vertex="1">
           <mxGeometry x="910" y="250" width="400" height="180" as="geometry"/>
         </mxCell>
-        <mxCell id="1-EH0mF0fKl0FWAkhu1p-216" value="&lt;h1&gt;演进方法&lt;/h1&gt;&lt;p&gt;逐步沉淀可服用基础能力，需求初期建议以模块形式在现有高相关服务里，为复用性做必要的思考和简单的准备，等复用场景发生时通过模块重构进一步解耦以提升复用性。防止过渡设计。&lt;/p&gt;&lt;p&gt;强化核心域、沉淀支撑和通用域&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;opacity=90;" parent="1-EH0mF0fKl0FWAkhu1p-207" vertex="1">
+        <mxCell id="1-EH0mF0fKl0FWAkhu1p-216" value="&lt;h1&gt;演进方法&lt;/h1&gt;&lt;p&gt;逐步沉淀可复用基础能力，需求初期建议以模块形式在现有高相关服务里，为复用性做必要的思考和简单的准备，等复用场景发生时通过模块重构进一步解耦以提升复用性。防止过渡设计。&lt;/p&gt;&lt;p&gt;强化核心域、沉淀支撑和通用域&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;opacity=90;" parent="1-EH0mF0fKl0FWAkhu1p-207" vertex="1">
           <mxGeometry x="370" y="670" width="370" height="130" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram name="供给中心2020" id="36GCIyNCGxfwB5OMgiQG">
-    <mxGraphModel dx="1341" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2682" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dRRnQRDLstuDlbB1rixv-0"/>
         <mxCell id="dRRnQRDLstuDlbB1rixv-1" style="" parent="dRRnQRDLstuDlbB1rixv-0"/>
@@ -2091,7 +2091,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dRRnQRDLstuDlbB1rixv-128" value="实体系统" parent="dRRnQRDLstuDlbB1rixv-0" visible="0"/>
+        <mxCell id="dRRnQRDLstuDlbB1rixv-128" value="实体系统" parent="dRRnQRDLstuDlbB1rixv-0"/>
         <mxCell id="dRRnQRDLstuDlbB1rixv-129" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;opacity=90;" parent="dRRnQRDLstuDlbB1rixv-128" vertex="1">
           <mxGeometry x="352" y="290" width="978" height="390" as="geometry"/>
         </mxCell>
@@ -2126,7 +2126,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="交易中心2020" id="BGE6Q8HB-JLO7a9FxyzX">
-    <mxGraphModel dx="1341" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1341" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jPJNupAszgu3UzN9_kuC-0"/>
         <mxCell id="jPJNupAszgu3UzN9_kuC-1" style="" parent="jPJNupAszgu3UzN9_kuC-0"/>
@@ -2259,50 +2259,17 @@
         <mxCell id="Gs3hCQqruSsIf1r08A1F-2" value="&lt;span style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;房客端功能模块&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
           <mxGeometry x="60" y="7" width="110" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-3" value="订单列表" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
+        <mxCell id="Gs3hCQqruSsIf1r08A1F-3" value="预定" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
           <mxGeometry x="10" y="33" width="60" height="28" as="geometry"/>
         </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-4" value="删除" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
+        <mxCell id="Gs3hCQqruSsIf1r08A1F-4" value="支付" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
           <mxGeometry x="80" y="33" width="60" height="28" as="geometry"/>
         </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-5" value="账户" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
+        <mxCell id="Gs3hCQqruSsIf1r08A1F-5" value="订单管理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
           <mxGeometry x="150" y="33" width="60" height="28" as="geometry"/>
         </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-6" value="个人资料" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="80" y="68" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-7" value="&lt;span style=&quot;font-size: 11px&quot;&gt;设备管理&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
+        <mxCell id="Gs3hCQqruSsIf1r08A1F-7" value="&lt;span style=&quot;font-size: 11px&quot;&gt;点评&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
           <mxGeometry x="10" y="68" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-8" value="信息维护" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="150" y="68" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-9" value="&lt;span style=&quot;font-size: 11px&quot;&gt;注销&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="10" y="105" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-10" value="授权" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="80" y="105" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-11" value="收藏" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="150" y="105" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-12" value="&lt;span style=&quot;font-size: 11px&quot;&gt;邀请&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="10" y="141" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-13" value="积分" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="80" y="141" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-14" value="商旅认证" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="150" y="141" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-15" value="&lt;span style=&quot;font-size: 11px&quot;&gt;学生认证&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="10" y="176" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-16" value="会员体系" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="80" y="176" width="60" height="28" as="geometry"/>
-        </mxCell>
-        <mxCell id="Gs3hCQqruSsIf1r08A1F-17" value="签到" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="Gs3hCQqruSsIf1r08A1F-0">
-          <mxGeometry x="150" y="176" width="60" height="28" as="geometry"/>
         </mxCell>
         <mxCell id="jPJNupAszgu3UzN9_kuC-42" value="业务中台" style="" parent="jPJNupAszgu3UzN9_kuC-0"/>
         <mxCell id="jPJNupAszgu3UzN9_kuC-43" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="jPJNupAszgu3UzN9_kuC-42" vertex="1">
@@ -2518,7 +2485,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="YpOszma1E0C6XeDhaQ0w" name="营销中台">
-    <mxGraphModel dx="1204" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1341" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WeiTxBHwXRr_uXrwVCFI-0"/>
         <mxCell id="WeiTxBHwXRr_uXrwVCFI-1" parent="WeiTxBHwXRr_uXrwVCFI-0"/>
