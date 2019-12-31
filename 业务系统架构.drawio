@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-31T02:27:45.567Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="G_3jV2KkraBktBj96oFn" version="12.4.7" type="github" pages="12">
+<mxfile host="www.draw.io" modified="2019-12-31T02:33:10.970Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="YYaQUs0D2c3nsKQ7GqUt" version="12.4.7" type="github" pages="12">
   <diagram id="m-3Kd5v_KkX7SUyNV3uM" name="业务中台功能视图">
     <mxGraphModel dx="1581" dy="727" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1069,7 +1069,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ZCS_ATDT_B4t6ErMCU8v" name="架构2020">
-    <mxGraphModel dx="3062" dy="1212" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2800" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZpO_fxreF055gcp7OLyu-0"/>
         <mxCell id="ZpO_fxreF055gcp7OLyu-1" style="" parent="ZpO_fxreF055gcp7OLyu-0"/>
@@ -1382,7 +1382,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="CXThyQGTN9_G2QLNLMMF" name="用户中心2020">
-    <mxGraphModel dx="1916" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1691" dy="969" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="znvPev2Ul2fMGLZ_2JRQ-0"/>
         <mxCell id="znvPev2Ul2fMGLZ_2JRQ-1" style="" parent="znvPev2Ul2fMGLZ_2JRQ-0"/>
@@ -1808,7 +1808,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="供给中心2020" id="36GCIyNCGxfwB5OMgiQG">
-    <mxGraphModel dx="2682" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2368" dy="1356" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="dRRnQRDLstuDlbB1rixv-0"/>
         <mxCell id="dRRnQRDLstuDlbB1rixv-1" style="" parent="dRRnQRDLstuDlbB1rixv-0"/>
@@ -2091,7 +2091,7 @@
             <mxPoint as="offset"/>
           </mxGeometry>
         </mxCell>
-        <mxCell id="dRRnQRDLstuDlbB1rixv-128" value="实体系统" parent="dRRnQRDLstuDlbB1rixv-0"/>
+        <mxCell id="dRRnQRDLstuDlbB1rixv-128" value="实体系统" parent="dRRnQRDLstuDlbB1rixv-0" visible="0"/>
         <mxCell id="dRRnQRDLstuDlbB1rixv-129" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;opacity=90;" parent="dRRnQRDLstuDlbB1rixv-128" vertex="1">
           <mxGeometry x="352" y="290" width="978" height="390" as="geometry"/>
         </mxCell>
@@ -2126,7 +2126,7 @@
     </mxGraphModel>
   </diagram>
   <diagram name="交易中心2020" id="BGE6Q8HB-JLO7a9FxyzX">
-    <mxGraphModel dx="1341" dy="678" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1973" dy="1130" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="jPJNupAszgu3UzN9_kuC-0"/>
         <mxCell id="jPJNupAszgu3UzN9_kuC-1" style="" parent="jPJNupAszgu3UzN9_kuC-0"/>
