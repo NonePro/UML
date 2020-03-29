@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-29T09:30:40.840Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="_D4OGAOIwMILco3vMvFS" version="12.9.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-03-29T09:45:49.749Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="6Rar97ipVYHdtZosUL0k" version="12.9.3" type="github" pages="2">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="框架">
     <mxGraphModel dx="1321" dy="695" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -352,10 +352,38 @@
     </mxGraphModel>
   </diagram>
   <diagram id="jCu5fo00QPFMeEzj9V5g" name="研发-运维">
-    <mxGraphModel dx="1123" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1202" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0zy5b5tm0FP5eXGjMJNw-0" />
         <mxCell id="0zy5b5tm0FP5eXGjMJNw-1" parent="0zy5b5tm0FP5eXGjMJNw-0" />
+        <mxCell id="JyPsC1iYglPI9zHy5Eir-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0zy5b5tm0FP5eXGjMJNw-1" source="JyPsC1iYglPI9zHy5Eir-3" target="JyPsC1iYglPI9zHy5Eir-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyPsC1iYglPI9zHy5Eir-3" value="&lt;h1&gt;自建机房&lt;/h1&gt;&lt;p&gt;1、机房管理（电力、温度、安全、卫生）&lt;/p&gt;&lt;p&gt;2、资源浪费（管理、物力、人力）&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="0zy5b5tm0FP5eXGjMJNw-1">
+          <mxGeometry x="40" y="40" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="JyPsC1iYglPI9zHy5Eir-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="0zy5b5tm0FP5eXGjMJNw-1" target="JyPsC1iYglPI9zHy5Eir-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyPsC1iYglPI9zHy5Eir-8" value="机器虚拟化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="JyPsC1iYglPI9zHy5Eir-7">
+          <mxGeometry x="0.3576" y="35" relative="1" as="geometry">
+            <mxPoint x="-35" y="-21" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JyPsC1iYglPI9zHy5Eir-4" value="&lt;h1&gt;机房托管服务&lt;/h1&gt;&lt;p&gt;1、机器利用率低&lt;/p&gt;&lt;p&gt;2、集群机器管理困难&lt;/p&gt;&lt;p&gt;3、应用部署困难&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="0zy5b5tm0FP5eXGjMJNw-1">
+          <mxGeometry x="65" y="230" width="190" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="JyPsC1iYglPI9zHy5Eir-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="0zy5b5tm0FP5eXGjMJNw-1" source="JyPsC1iYglPI9zHy5Eir-6" target="JyPsC1iYglPI9zHy5Eir-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JyPsC1iYglPI9zHy5Eir-6" value="&lt;h1&gt;PAAS平台&lt;/h1&gt;&lt;p&gt;1、应用部署困难&lt;/p&gt;&lt;p&gt;2、集群编排调度困难&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="0zy5b5tm0FP5eXGjMJNw-1">
+          <mxGeometry x="65" y="450" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="JyPsC1iYglPI9zHy5Eir-11" value="&lt;h1&gt;容器云&lt;/h1&gt;&lt;p&gt;1、通过容器化&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="0zy5b5tm0FP5eXGjMJNw-1">
+          <mxGeometry x="65" y="640" width="735" height="170" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
