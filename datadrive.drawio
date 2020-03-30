@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T03:20:37.761Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="3TbsMwYvfOcI7kZCGJdb" version="12.9.3" type="github"><diagram id="HZ19mRplOOHYuCke8lQN" name="Page-1">ddHNEoIgEADgp+GuUJZns7p08tCZkU2YQZdBGq2nTwdNGevCLN8uLD+EZXV/sdzIGwrQhEaiJ+xEKE13yTCO8PKwT2MPlVXC0woK9YYJo0mfSkAbFDpE7ZQJscSmgdIFxq3FLix7oA67Gl7BBoqS663elXDS65EeFr+CquTcOU5Sn6n5XDzdpJVcYLcilhOWWUTno7rPQI9vN7+LX3f+k/0ezELjfiwYgmXvYRJ8EMs/</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2020-03-30T03:32:24.714Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="jxxXXnn0hE2AniF8GBQb" version="12.9.3" type="github">
+  <diagram id="HZ19mRplOOHYuCke8lQN" name="核心思路">
+    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7quSpxsJrwe3_pa_enCg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7quSpxsJrwe3_pa_enCg-1" target="7quSpxsJrwe3_pa_enCg-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7quSpxsJrwe3_pa_enCg-1" target="7quSpxsJrwe3_pa_enCg-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-1" value="用户行为" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-2" value="数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="222" y="440" width="590" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-5" value="&lt;h1&gt;提出业务问题&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-6" value="&lt;h1&gt;定义行为&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="40" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1" source="7quSpxsJrwe3_pa_enCg-7" target="7quSpxsJrwe3_pa_enCg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-7" value="行为统计和分析" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="150" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-10" value="&lt;h1&gt;分析行为&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="40" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="7quSpxsJrwe3_pa_enCg-11" target="7quSpxsJrwe3_pa_enCg-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-11" value="事件模型" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="290" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-14" value="Event" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="7quSpxsJrwe3_pa_enCg-15" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="374" y="340" width="40" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
