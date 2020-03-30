@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-03-30T03:32:24.714Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="jxxXXnn0hE2AniF8GBQb" version="12.9.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-30T03:33:20.006Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="xJ1FrCQk7eHAg79GGDL7" version="12.9.3" type="github" pages="3">
   <diagram id="HZ19mRplOOHYuCke8lQN" name="核心思路">
     <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,6 +43,22 @@
         <mxCell id="7quSpxsJrwe3_pa_enCg-15" value="User" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="374" y="340" width="40" height="20" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="VHzKqSDOgTGkxJwxUUAY" name="用户-标识">
+    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="LNwoJNzP0hUSgKrYWfhr-0" />
+        <mxCell id="LNwoJNzP0hUSgKrYWfhr-1" parent="LNwoJNzP0hUSgKrYWfhr-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gWLK6Oa12eItkRA_yCtg" name="用户-定义">
+    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="k-sHI4VGQvVXq6GdSGJH-0" />
+        <mxCell id="k-sHI4VGQvVXq6GdSGJH-1" parent="k-sHI4VGQvVXq6GdSGJH-0" />
       </root>
     </mxGraphModel>
   </diagram>
