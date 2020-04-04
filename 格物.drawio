@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-03T13:24:13.304Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="UHJ3LPOGmS9T_XeDtJqj" version="12.9.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-04-04T06:14:40.871Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="vuROrsClSHS2wqbh-6ew" version="12.9.6" type="github" pages="3">
   <diagram id="NRAOrUQztztXdDNH-yVj" name="分布式系统">
     <mxGraphModel dx="1426" dy="771" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -12,6 +12,20 @@
       <root>
         <mxCell id="8YHROWmZF8G9vhJu4PTo-0" />
         <mxCell id="8YHROWmZF8G9vhJu4PTo-1" parent="8YHROWmZF8G9vhJu4PTo-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="BDLb-HW5rH22l0dc9Qrl" name="ES">
+    <mxGraphModel dx="946" dy="591" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="o84nP3Y4GLDKnKb3g5lK-0" />
+        <mxCell id="o84nP3Y4GLDKnKb3g5lK-1" parent="o84nP3Y4GLDKnKb3g5lK-0" />
+        <mxCell id="o84nP3Y4GLDKnKb3g5lK-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="o84nP3Y4GLDKnKb3g5lK-1">
+          <mxGeometry x="80" y="120" width="360" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="o84nP3Y4GLDKnKb3g5lK-3" value="index" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="o84nP3Y4GLDKnKb3g5lK-1">
+          <mxGeometry x="80" y="120" width="40" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
