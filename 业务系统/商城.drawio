@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-04-29T04:00:50.224Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="L33zKZDISnr_tqLPnvcZ" version="13.0.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-04-29T04:05:08.778Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="iNK6MpDcddRV1SNrN4h-" version="13.0.1" type="github" pages="4">
   <diagram id="qINoJ6QLdbQ89NbVhY2Q" name="概览-产品">
     <mxGraphModel dx="1901" dy="1073" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -237,6 +237,22 @@
       <root>
         <mxCell id="S2Pejr9jjsV5HDJXffp4-0" />
         <mxCell id="S2Pejr9jjsV5HDJXffp4-1" parent="S2Pejr9jjsV5HDJXffp4-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="LVOY_tyk-wuPbxOIk5Mt" name="商品中心">
+    <mxGraphModel dx="1426" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="f5F3KV3X-hMDpswBt-ZI-0" />
+        <mxCell id="f5F3KV3X-hMDpswBt-ZI-1" parent="f5F3KV3X-hMDpswBt-ZI-0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zBs_gv07Jy-hfiygLw47" name="促销中心">
+    <mxGraphModel dx="1426" dy="805" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="x9zm5jnXQpUFJd2uiZ5n-0" />
+        <mxCell id="x9zm5jnXQpUFJd2uiZ5n-1" parent="x9zm5jnXQpUFJd2uiZ5n-0" />
       </root>
     </mxGraphModel>
   </diagram>
