@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-18T12:29:52.205Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="tOuvO1vCQw7f8BUXZS2H" version="13.2.6" type="github" pages="13">
+<mxfile host="app.diagrams.net" modified="2020-06-18T12:32:58.115Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="LIMqNoGkaWzAXGcbmbl7" version="13.2.6" type="github" pages="13">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1186" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -3614,6 +3614,12 @@
               <mxPoint x="693" y="904" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="id7pUqxZQXKqiOa4UKXE-66" value="&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;订单中心管理前台&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="5Ks2_3MYyaply82CORfh-1">
+          <mxGeometry x="96.99846346033729" y="1033.0045454545455" width="24.940662086196124" height="137.15909090909088" as="geometry" />
+        </mxCell>
+        <mxCell id="id7pUqxZQXKqiOa4UKXE-67" value="&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;基础服务&lt;/b&gt;&lt;/span&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="5Ks2_3MYyaply82CORfh-1">
+          <mxGeometry x="97.45846346033728" y="1462.0045454545455" width="24.940662086196124" height="137.15909090909088" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
