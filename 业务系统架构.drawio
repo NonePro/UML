@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-22T07:43:19.675Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="7F6gziy2g9YzuPW04ybt" version="13.3.0" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-06-22T07:57:55.164Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="UBchWWoDD5DUwePSANDt" version="13.3.0" type="github" pages="14">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1186" dy="741" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -8752,10 +8752,29 @@
     
   </diagram>
   <diagram id="mMybTMUKsxmWOLyZALYD" name="订单中心UML">
-    <mxGraphModel dx="2038" dy="798" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1795" dy="899" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-0" />
-        <mxCell id="HeAMmMijaM_eCUFrnWRL-1" parent="HeAMmMijaM_eCUFrnWRL-0" />
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-60" value="动态图" parent="HeAMmMijaM_eCUFrnWRL-0" />
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-61" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-60">
+          <mxGeometry x="-181" y="39" width="365" height="641" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-62" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-60">
+          <mxGeometry x="214" y="40" width="365" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-63" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-60">
+          <mxGeometry x="617" y="40" width="343" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-65" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-60">
+          <mxGeometry x="1001" y="40" width="299" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-72" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-60">
+          <mxGeometry x="620" y="330" width="340" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-73" value="" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;dashed=1;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-60">
+          <mxGeometry x="1000" y="480" width="299" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-1" value="静态图" parent="HeAMmMijaM_eCUFrnWRL-0" />
         <mxCell id="HeAMmMijaM_eCUFrnWRL-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="HeAMmMijaM_eCUFrnWRL-1" source="HeAMmMijaM_eCUFrnWRL-2" target="HeAMmMijaM_eCUFrnWRL-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -8796,7 +8815,23 @@
         <mxCell id="HeAMmMijaM_eCUFrnWRL-56" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HeAMmMijaM_eCUFrnWRL-1" source="HeAMmMijaM_eCUFrnWRL-6" target="HeAMmMijaM_eCUFrnWRL-47">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HeAMmMijaM_eCUFrnWRL-59" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HeAMmMijaM_eCUFrnWRL-1" source="HeAMmMijaM_eCUFrnWRL-6" target="HeAMmMijaM_eCUFrnWRL-57">
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HeAMmMijaM_eCUFrnWRL-1" source="HeAMmMijaM_eCUFrnWRL-6" target="HeAMmMijaM_eCUFrnWRL-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="344" />
+              <mxPoint x="600" y="730" />
+              <mxPoint x="980" y="730" />
+              <mxPoint x="980" y="571" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HeAMmMijaM_eCUFrnWRL-1" source="HeAMmMijaM_eCUFrnWRL-6" target="HeAMmMijaM_eCUFrnWRL-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-76" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HeAMmMijaM_eCUFrnWRL-1" source="HeAMmMijaM_eCUFrnWRL-6" target="HeAMmMijaM_eCUFrnWRL-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-77" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;" edge="1" parent="HeAMmMijaM_eCUFrnWRL-1" source="HeAMmMijaM_eCUFrnWRL-6" target="HeAMmMijaM_eCUFrnWRL-70">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-6" value="Order &lt;aggregation&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
@@ -8839,34 +8874,52 @@
           <mxGeometry y="26" width="260" height="109" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-28" value="Payment &lt;Entity&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
-          <mxGeometry x="640" y="78" width="280" height="107" as="geometry" />
+          <mxGeometry x="640" y="73" width="280" height="107" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-29" value="+ status : Enum (created/paid/canceled/timeout)&#xa;+ paymentNumber : String&#xa;+ method : String&#xa;+ amount : Float &#xa;+ paidAt   : Date" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacing=4;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-28">
           <mxGeometry y="26" width="280" height="81" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-47" value="PaymentItem &lt;vo&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
-          <mxGeometry x="640" y="326" width="280" height="69" as="geometry" />
+          <mxGeometry x="640" y="230" width="280" height="69" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-48" value="+ type : Enum (order/logistics/cashpledge)&#xa;+ amount : Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacing=4;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-47">
           <mxGeometry y="26" width="280" height="43" as="geometry" />
         </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-66" value="Refundment &lt;vo&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
+          <mxGeometry x="640" y="349" width="280" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-67" value="+ type : Enum (order/logistics/cashpledge)&#xa;+ amount : Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacing=4;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-66">
+          <mxGeometry y="26" width="280" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-68" value="Punishment &lt;vo&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
+          <mxGeometry x="640" y="440" width="280" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-69" value="+ type : Enum (order/logistics/cashpledge)&#xa;+ amount : Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacing=4;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-68">
+          <mxGeometry y="26" width="280" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-70" value="Settlement &lt;vo&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
+          <mxGeometry x="640" y="559" width="280" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HeAMmMijaM_eCUFrnWRL-71" value="+ type : Enum (order/logistics/cashpledge)&#xa;+ amount : Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacing=4;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-70">
+          <mxGeometry y="26" width="280" height="43" as="geometry" />
+        </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-22" value="Logistics" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
-          <mxGeometry x="1018.4" y="214" width="240" height="135" as="geometry" />
+          <mxGeometry x="1030" y="80" width="240" height="135" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-23" value="+ expressCompany : String&#xa;+ trackNumber : String&#xa;+ amount : Float &#xa;+ orderId : String&#xa;+ consignee : Consignee &lt;VO&gt;&#xa;+ state : Enum (delivered/signed)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacing=4;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-22">
           <mxGeometry y="26" width="240" height="109" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-49" value="Cashpledge" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
-          <mxGeometry x="1018.4" y="401" width="240" height="81" as="geometry" />
+          <mxGeometry x="1030" y="290" width="240" height="81" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-50" value="+ amount : Money&#xa;+ orderId : String&#xa;+ state : Enum ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacing=4;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-49">
           <mxGeometry y="26" width="240" height="55" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-57" value="Appointment" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-1">
-          <mxGeometry x="640" y="548" width="280" height="69" as="geometry" />
+          <mxGeometry x="1030" y="553.5" width="240" height="69" as="geometry" />
         </mxCell>
         <mxCell id="HeAMmMijaM_eCUFrnWRL-58" value="+ type : Enum (order/logistics/cashpledge)&#xa;+ amount : Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;spacing=4;" vertex="1" parent="HeAMmMijaM_eCUFrnWRL-57">
-          <mxGeometry y="26" width="280" height="43" as="geometry" />
+          <mxGeometry y="26" width="240" height="43" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
