@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-23T08:55:40.042Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="HAVdEMUyaS5RuvM8IN-3" version="13.3.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-06-23T11:10:33.740Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="lUyacBJ8Pff06NuQWX4B" version="13.3.0" type="github" pages="9">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1273" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -3556,13 +3556,13 @@
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-0" />
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-1" style="" parent="Vnw5py_Mfbur0qXgcQZ8-0" />
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-219" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#679597;strokeColor=none;opacity=50;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-1">
-          <mxGeometry x="-216" y="1096" width="1070" height="326" as="geometry" />
+          <mxGeometry x="-216" y="1096" width="1187" height="203" as="geometry" />
         </mxCell>
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-220" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E5CCFF;shadow=1;dashed=1;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-1">
-          <mxGeometry x="152" y="1109" width="220" height="300" as="geometry" />
+          <mxGeometry x="200" y="1109" width="172" height="175" as="geometry" />
         </mxCell>
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-222" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#679597;strokeColor=none;opacity=50;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-1">
-          <mxGeometry x="-216" y="1451" width="1069" height="180" as="geometry" />
+          <mxGeometry x="-211" y="1322" width="1188" height="180" as="geometry" />
         </mxCell>
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-232" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;dashed=1;strokeColor=#E5CCFF;strokeWidth=2;opacity=20;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-1">
           <mxGeometry x="37" y="1150" width="80" height="80" as="geometry" />
@@ -3611,6 +3611,9 @@
             <mxPoint x="690" y="1656.2780618106617" as="sourcePoint" />
             <mxPoint x="690" y="1230" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="Vnw5py_Mfbur0qXgcQZ8-265" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#679597;strokeColor=none;opacity=50;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-1">
+          <mxGeometry x="-216" y="867" width="1186" height="206" as="geometry" />
         </mxCell>
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-64" value="业务中台" style="" parent="Vnw5py_Mfbur0qXgcQZ8-0" />
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-237" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E5CCFF;shadow=1;dashed=1;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-64">
