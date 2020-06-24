@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-06-24T06:07:46.018Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="-OzSo7ToK3n-p06fz6-Y" version="13.3.0" type="github" pages="9">
+<mxfile host="app.diagrams.net" modified="2020-06-24T06:12:43.745Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.106 Safari/537.36" etag="54mMJmAAGkFOT3J-Uq1s" version="13.3.0" type="github" pages="9">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -6388,8 +6388,8 @@
         <mxCell id="EyQxnF_JV_nW36ax_BaN-94" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;shadow=1;strokeColor=#67AB9F;fillColor=#9AC7BF;fontColor=#FFFFFF;opacity=60;" edge="1" parent="Vnw5py_Mfbur0qXgcQZ8-224" source="EyQxnF_JV_nW36ax_BaN-91" target="EyQxnF_JV_nW36ax_BaN-91">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EyQxnF_JV_nW36ax_BaN-95" value="&lt;b&gt;1、为何尽量规避同级调用？&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=1;comic=0;strokeColor=#67AB9F;fillColor=none;fontColor=#FFFFFF;align=left;position2=0.47;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-224">
-          <mxGeometry x="566" y="1072" width="157" height="68" as="geometry" />
+        <mxCell id="EyQxnF_JV_nW36ax_BaN-95" value="&lt;b&gt;为何尽量规避同级调用？&lt;/b&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=1;comic=0;strokeColor=#67AB9F;fillColor=none;fontColor=#FFFFFF;align=left;position2=0.47;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-224">
+          <mxGeometry x="575" y="1014" width="157" height="68" as="geometry" />
         </mxCell>
         <mxCell id="EyQxnF_JV_nW36ax_BaN-96" value="如何平衡基础服务层的领域边界，服务自治性怎么理解？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=1;comic=0;strokeColor=#67AB9F;fillColor=none;fontColor=#FFFFFF;align=left;position2=0.78;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-224">
           <mxGeometry x="-288" y="1190" width="165" height="80" as="geometry" />
@@ -6399,6 +6399,18 @@
         </mxCell>
         <mxCell id="EyQxnF_JV_nW36ax_BaN-98" value="如何维持业务响应、产品体验与服务抽象之间的平衡？" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;rounded=1;shadow=1;comic=0;strokeColor=#67AB9F;fillColor=none;fontColor=#FFFFFF;align=left;position2=0.78;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-224">
           <mxGeometry x="-297" y="1048" width="165" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EyQxnF_JV_nW36ax_BaN-100" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;shadow=1;strokeColor=#FFFFFF;fillColor=#9AC7BF;fontColor=#FFFFFF;opacity=60;" edge="1" parent="Vnw5py_Mfbur0qXgcQZ8-224" source="EyQxnF_JV_nW36ax_BaN-99" target="EyQxnF_JV_nW36ax_BaN-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyQxnF_JV_nW36ax_BaN-99" value="问题域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;comic=0;fontColor=#FFFFFF;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-224">
+          <mxGeometry x="605" y="892" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="EyQxnF_JV_nW36ax_BaN-102" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.405;entryDx=0;entryDy=0;entryPerimeter=0;shadow=1;strokeColor=#FFFFFF;fillColor=#9AC7BF;fontColor=#FFFFFF;opacity=60;" edge="1" parent="Vnw5py_Mfbur0qXgcQZ8-224" source="EyQxnF_JV_nW36ax_BaN-101" target="EyQxnF_JV_nW36ax_BaN-85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EyQxnF_JV_nW36ax_BaN-101" value="方案域" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;comic=0;fontColor=#FFFFFF;" vertex="1" parent="Vnw5py_Mfbur0qXgcQZ8-224">
+          <mxGeometry x="671" y="1146" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="Vnw5py_Mfbur0qXgcQZ8-67" value="调用关系" style="" parent="Vnw5py_Mfbur0qXgcQZ8-0" />
         <mxCell id="EyQxnF_JV_nW36ax_BaN-11" value="图解" parent="Vnw5py_Mfbur0qXgcQZ8-0" />
