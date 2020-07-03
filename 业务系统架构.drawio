@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-03T07:14:01.939Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="601fCduUJKWJAo-27qqU" version="13.3.6" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2020-07-03T08:31:32.324Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="7c7NLGJ09huT34499UrJ" version="13.3.6" type="github" pages="11">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -8360,15 +8360,15 @@
           <mxGeometry x="935" y="480" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="rv5_WG2MD4oquaZYn2W0-12" value="StandProductUnit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="9C4tC8m2p8oC9wUHS2PS-1" vertex="1">
-          <mxGeometry x="215" y="220" width="260" height="91" as="geometry" />
+          <mxGeometry x="215" y="220" width="260" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="rv5_WG2MD4oquaZYn2W0-13" value="+ tradeId: String&#xa;+ booker: Booker&lt;VO&gt;&#xa;+ bizLineId: String&#xa;+ fee:Fee&lt;VO&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="rv5_WG2MD4oquaZYn2W0-12" vertex="1">
-          <mxGeometry y="26" width="260" height="65" as="geometry" />
+        <mxCell id="rv5_WG2MD4oquaZYn2W0-13" value="+ spuId : String&#xa;+ categoryId : String&#xa;+ name : String&#xa;+ shopId : String&#xa;+ state : Enum&#xa;+ price : Money&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="rv5_WG2MD4oquaZYn2W0-12" vertex="1">
+          <mxGeometry y="26" width="260" height="96" as="geometry" />
         </mxCell>
         <mxCell id="rv5_WG2MD4oquaZYn2W0-22" value="StockKeepUnit &lt;aggregation&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="9C4tC8m2p8oC9wUHS2PS-1" vertex="1">
           <mxGeometry x="215.00000000000017" y="414" width="260" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="rv5_WG2MD4oquaZYn2W0-23" value="+ trade : Trade &lt;Entity&gt;&#xa;+ orderId : String&#xa;+ needLogistics : Bool&#xa;+ status : Enum (created/completed/canceled)&#xa;+ payment : Payment &lt;VO&gt;&#xa;+ fee : Fee &lt;VO&gt;&#xa;+ refundRule : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="rv5_WG2MD4oquaZYn2W0-22" vertex="1">
+        <mxCell id="rv5_WG2MD4oquaZYn2W0-23" value="+ skuId : String&#xa;+ marketPrice : Money&#xa;+ salePrice : Money&#xa;+ weight : int&#xa;+ state : Enum" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" parent="rv5_WG2MD4oquaZYn2W0-22" vertex="1">
           <mxGeometry y="26" width="260" height="114" as="geometry" />
         </mxCell>
         <mxCell id="rv5_WG2MD4oquaZYn2W0-35" value="Payment &lt;Entity&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="9C4tC8m2p8oC9wUHS2PS-1" vertex="1">
