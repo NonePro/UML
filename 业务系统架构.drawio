@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-03T12:18:56.197Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Z80wYyWArJ5bAkfYp3N1" version="13.3.6" type="github" pages="12">
+<mxfile host="app.diagrams.net" modified="2020-07-03T12:29:48.790Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="QPnDzstLpzYZ2G7DOGpC" version="13.3.6" type="github" pages="12">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -5511,7 +5511,7 @@
     
   </diagram>
   <diagram id="MJpi7W9bnqcUwW5HeZwq" name="供给中心">
-    <mxGraphModel dx="987" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="909" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="xx3iKBMS2a-9wcvXZIJL-0" />
         <mxCell id="xx3iKBMS2a-9wcvXZIJL-1" parent="xx3iKBMS2a-9wcvXZIJL-0" />
@@ -5664,16 +5664,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="8NrizJBF0COv4KwOOpnQ-2" value="发布系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9AC7BF;strokeColor=none;shadow=1;" vertex="1" parent="xx3iKBMS2a-9wcvXZIJL-1">
-          <mxGeometry x="530" y="1050" width="91.45" height="50" as="geometry" />
+          <mxGeometry x="619" y="1059" width="30" height="230" as="geometry" />
         </mxCell>
         <mxCell id="8NrizJBF0COv4KwOOpnQ-3" value="搜索系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9AC7BF;strokeColor=none;shadow=1;" vertex="1" parent="xx3iKBMS2a-9wcvXZIJL-1">
-          <mxGeometry x="660" y="1050" width="91.45" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="8NrizJBF0COv4KwOOpnQ-4" value="库存系统" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9AC7BF;strokeColor=none;shadow=1;" vertex="1" parent="xx3iKBMS2a-9wcvXZIJL-1">
-          <mxGeometry x="800" y="1050" width="91.45" height="50" as="geometry" />
+          <mxGeometry x="667.59" y="1060" width="30" height="229" as="geometry" />
         </mxCell>
         <mxCell id="8NrizJBF0COv4KwOOpnQ-5" value="类目管理" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9AC7BF;strokeColor=none;shadow=1;" vertex="1" parent="xx3iKBMS2a-9wcvXZIJL-1">
-          <mxGeometry x="290" y="1060" width="181.45" height="230" as="geometry" />
+          <mxGeometry x="565" y="1060" width="30" height="230" as="geometry" />
         </mxCell>
         <mxCell id="8NrizJBF0COv4KwOOpnQ-10" value="特征" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9AC7BF;strokeColor=none;shadow=1;" vertex="1" parent="xx3iKBMS2a-9wcvXZIJL-1">
           <mxGeometry x="634" y="1381.4" width="110" height="36" as="geometry" />
@@ -5689,6 +5686,9 @@
         </mxCell>
         <mxCell id="8NrizJBF0COv4KwOOpnQ-14" value="库存" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9AC7BF;strokeColor=none;shadow=1;" vertex="1" parent="xx3iKBMS2a-9wcvXZIJL-1">
           <mxGeometry x="694" y="1464" width="50" height="36" as="geometry" />
+        </mxCell>
+        <mxCell id="8NrizJBF0COv4KwOOpnQ-15" value="&lt;h1&gt;Todo：&lt;/h1&gt;&lt;p&gt;1、电商、日历房、火车票&amp;nbsp; 类型定义&amp;nbsp; &amp;nbsp; =》发布&amp;nbsp; =》 展示&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;labelBackgroundColor=none;opacity=60;" vertex="1" parent="xx3iKBMS2a-9wcvXZIJL-1">
+          <mxGeometry x="241" y="1540" width="319" height="120" as="geometry" />
         </mxCell>
         <mxCell id="8NrizJBF0COv4KwOOpnQ-0" value="商品中心" parent="xx3iKBMS2a-9wcvXZIJL-0" visible="0" />
         <mxCell id="8NrizJBF0COv4KwOOpnQ-1" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#E5CCFF;shadow=1;" vertex="1" parent="8NrizJBF0COv4KwOOpnQ-0">
