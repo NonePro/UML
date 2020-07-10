@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-10T03:24:08.120Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="6xk8OQHKp-tIPI8qcACM" version="13.4.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-07-10T03:25:35.674Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="W2T18qQ2HikO0ltjA0G9" version="13.4.1" type="github" pages="15">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -6855,7 +6855,7 @@
           <mxGeometry x="1248" y="410" width="180" height="40" as="geometry" />
         </mxCell>
         <mxCell id="0rPDyhr_vuGcFxs2MSXJ-80" value="订单&lt;br&gt;基础服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;dashed=1;strokeColor=#67AB9F;shadow=1;" vertex="1" parent="0rPDyhr_vuGcFxs2MSXJ-1">
-          <mxGeometry x="619" y="383" width="50" height="190" as="geometry" />
+          <mxGeometry x="619" y="383" width="50" height="188" as="geometry" />
         </mxCell>
         <mxCell id="0rPDyhr_vuGcFxs2MSXJ-81" value="清结算&lt;br&gt;基础服务" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#67AB9F;dashed=1;shadow=1;" vertex="1" parent="0rPDyhr_vuGcFxs2MSXJ-1">
           <mxGeometry x="1450" y="380" width="50" height="190" as="geometry" />
@@ -7066,10 +7066,10 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0rPDyhr_vuGcFxs2MSXJ-142" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;服务前台&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="0rPDyhr_vuGcFxs2MSXJ-38">
-          <mxGeometry x="568" y="186" width="23" height="137.16" as="geometry" />
+          <mxGeometry x="575" y="160" width="23" height="137.16" as="geometry" />
         </mxCell>
         <mxCell id="0rPDyhr_vuGcFxs2MSXJ-143" value="&lt;font color=&quot;#ffffff&quot;&gt;&lt;span style=&quot;font-size: 18px&quot;&gt;&lt;b&gt;基础服务&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=0;" vertex="1" parent="0rPDyhr_vuGcFxs2MSXJ-38">
-          <mxGeometry x="567" y="391" width="23" height="137.16" as="geometry" />
+          <mxGeometry x="576" y="404" width="23" height="137.16" as="geometry" />
         </mxCell>
         <mxCell id="0rPDyhr_vuGcFxs2MSXJ-82" value="调用关系" parent="oBaU_9-5eaM4GN3VwZ7U-0" />
         <mxCell id="0rPDyhr_vuGcFxs2MSXJ-83" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#F19C99;opacity=80;" edge="1" parent="0rPDyhr_vuGcFxs2MSXJ-82" source="0rPDyhr_vuGcFxs2MSXJ-4" target="0rPDyhr_vuGcFxs2MSXJ-69">
