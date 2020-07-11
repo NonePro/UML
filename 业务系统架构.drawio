@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-11T02:48:53.817Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="Tw_c765lE74xfkYuUjr-" version="13.4.1" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-07-11T03:17:18.362Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="sUcqBYW8Y3oR66xoOw0d" version="13.4.1" type="github" pages="15">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7351,6 +7351,12 @@
         </mxCell>
         <mxCell id="g1GIgwIBjNtHn2srIxk_-36" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-33">
           <mxGeometry y="56" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-56" value="«interface»&#xa;Policy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="1690" y="65" width="350" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-57" value="+ getCompetencyList() : []Competency                 // 资格列表 &#xa;+ getCompetency($name string) : Competency    // 优惠资格&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-56">
+          <mxGeometry y="40" width="350" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
