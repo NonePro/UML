@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-11T06:59:32.273Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="nuLNtJmnY4IYUb0knU9f" version="13.4.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-07-11T07:27:36.598Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="jBnlUrClkK6E62UWPryc" version="13.4.1" type="github" pages="16">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7637,32 +7637,38 @@
         <mxCell id="b76XCjKFlTcXSxka2vOW-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;fontColor=#EA6B66;opacity=80;" edge="1" parent="r3j6iJXuTH6kC6Irwwvv-1" source="b76XCjKFlTcXSxka2vOW-43" target="g1GIgwIBjNtHn2srIxk_-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-48" value="ReduceCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="1560" y="-630" width="180" height="104" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-46" value="«interface»&#xa;CalculatorInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="2030" y="-875" width="290" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-49" value="+ type : Enum(category/spu/sku)&#xa;+ identity : string&#xa;+ policyId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-48">
-          <mxGeometry y="26" width="180" height="44" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-47" value="+ calculate()                             // 计算促销&#xa;// 此处实现可参考主站促销，未必最好，至少可行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-46">
+          <mxGeometry y="40" width="290" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-48" value="SkuReduceCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="1680" y="-480" width="220" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-49" value="#  amount : Money    // 直减金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-48">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-50" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-48">
-          <mxGeometry y="70" width="180" height="8" as="geometry" />
+          <mxGeometry y="50" width="220" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-51" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-48">
-          <mxGeometry y="78" width="180" height="26" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-51" value="+ calculate(SkuPromotionItem): Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-48">
+          <mxGeometry y="58" width="220" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-52" value="OrderReduceCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="1790" y="-630" width="180" height="104" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-65" value="&lt;abstract&gt;&#xa;BaseCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="1880" y="-717" width="555" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-53" value="+ type : Enum(category/spu/sku)&#xa;+ identity : string&#xa;+ policyId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-52">
-          <mxGeometry y="26" width="180" height="44" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-66" value="+ policy : PromotionPolicy" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-65">
+          <mxGeometry y="40" width="555" height="24" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-54" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-52">
-          <mxGeometry y="70" width="180" height="8" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-67" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-65">
+          <mxGeometry y="64" width="555" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-55" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-52">
-          <mxGeometry y="78" width="180" height="26" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-68" value="+ __construct(PromotionPolicy $policy)&#xa;+ preview(OrderPromotionItem $orderPromotionItem)    // 预计算，通常用于展示、策略对比&#xa;+ apply()                                                                           //  应用促销 主要是导致促销写操作&#xa;+ calculate(SkuPromotionItem): Money                           // 模板方法，子类实现&#xa;+ getTotalUsed() : Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-65">
+          <mxGeometry y="72" width="555" height="88" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-56" value="DiscountCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="2040" y="-630" width="180" height="104" as="geometry" />
+          <mxGeometry x="2250" y="-479.99999999999994" width="180" height="104" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-57" value="+ type : Enum(category/spu/sku)&#xa;+ identity : string&#xa;+ policyId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-56">
           <mxGeometry y="26" width="180" height="44" as="geometry" />
@@ -7674,7 +7680,7 @@
           <mxGeometry y="78" width="180" height="26" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-60" value="SpecialCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="2280" y="-630" width="180" height="104" as="geometry" />
+          <mxGeometry x="2490" y="-479.99999999999994" width="180" height="104" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-61" value="+ type : Enum(category/spu/sku)&#xa;+ identity : string&#xa;+ policyId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-60">
           <mxGeometry y="26" width="180" height="44" as="geometry" />
@@ -7685,11 +7691,17 @@
         <mxCell id="b76XCjKFlTcXSxka2vOW-63" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-60">
           <mxGeometry y="78" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-46" value="«interface»&#xa;CalculatorInterface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="1910" y="-840" width="290" height="70" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-69" value="OrderReduceCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="1958" y="-480" width="220" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-47" value="+ calculate()                             // 计算促销" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-46">
-          <mxGeometry y="40" width="290" height="30" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-70" value="#  amount : Money    // 直减金额" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-69">
+          <mxGeometry y="26" width="220" height="24" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-71" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-69">
+          <mxGeometry y="50" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-72" value="+ calculate(SkuPromotionItem): Money&#xa;//  语意上是在做基于SKU的价格计算&#xa;//  本质是在做优惠分摊&#xa;//  因为订单维度直减金额很容易计算&#xa;//  后续需要提供优惠分摊策略模式" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-69">
+          <mxGeometry y="58" width="220" height="82" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
