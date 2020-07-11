@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-11T04:23:28.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="NKv1jbU1MX9a2BU1XsM3" version="13.4.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-07-11T04:24:39.575Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="8SR1rN2sW5iYiApzF4JV" version="13.4.1" type="github" pages="16">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7516,7 +7516,7 @@
         <mxCell id="g1GIgwIBjNtHn2srIxk_-62" value="+ doFilter($requestValue) ：bool      //  资格过滤 &#xa;+ setRequiredValue()     //  从请求中初始化资格&#xa;+ getRequiredValue()     //  从配置中初始化资格" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-61">
           <mxGeometry y="40" width="350" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-94" value="SupplyCompetency" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-94" value="PromotonActivity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
           <mxGeometry x="920" y="-604.06" width="180" height="104" as="geometry" />
         </mxCell>
         <mxCell id="g1GIgwIBjNtHn2srIxk_-95" value="+ type : Enum(category/spu/sku)&#xa;+ identity : string&#xa;+ policyId" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-94">
@@ -7528,7 +7528,7 @@
         <mxCell id="g1GIgwIBjNtHn2srIxk_-97" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-94">
           <mxGeometry y="78" width="180" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-90" value="UserCompetency" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-90" value="Coupon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
           <mxGeometry x="400" y="-586.06" width="160" height="86" as="geometry" />
         </mxCell>
         <mxCell id="g1GIgwIBjNtHn2srIxk_-91" value="+ userId: string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-90">
