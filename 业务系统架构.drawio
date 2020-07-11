@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-11T11:23:54.301Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="qOqyX6bxQkS4SsPRS0Ua" version="13.4.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-07-11T11:31:04.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="8ST7JZGFR1xKBnvUvTa9" version="13.4.1" type="github" pages="16">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7181,7 +7181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pH_u4ZBXiA3Cut0DUfLI" name="促销中心uml">
-    <mxGraphModel dx="4787" dy="3049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2213" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="r3j6iJXuTH6kC6Irwwvv-0" />
         <mxCell id="r3j6iJXuTH6kC6Irwwvv-1" parent="r3j6iJXuTH6kC6Irwwvv-0" />
@@ -7936,6 +7936,18 @@
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-144" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-141">
           <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-161" value="PolicyGroup" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="2000" y="-280" width="240" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-162" value="+ name :  string&#xa;+ code : string&#xa;+ policyId : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-161">
+          <mxGeometry y="26" width="240" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-163" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-161">
+          <mxGeometry y="80" width="240" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-164" value="+ method(type): type&#xa;// 促销分组，默认配置成商家和平台即可&#xa;// 初期可以承担方代码配置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-161">
+          <mxGeometry y="88" width="240" height="62" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-77" value="模块划分" style="" parent="r3j6iJXuTH6kC6Irwwvv-0" visible="0" />
         <mxCell id="b76XCjKFlTcXSxka2vOW-101" value="" style="curved=1;endArrow=none;html=1;dashed=1;strokeColor=#000000;strokeWidth=1;fontColor=#EA6B66;opacity=80;endFill=0;" edge="1" parent="b76XCjKFlTcXSxka2vOW-77">
