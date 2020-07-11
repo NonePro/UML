@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-11T11:31:04.284Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="8ST7JZGFR1xKBnvUvTa9" version="13.4.1" type="github" pages="16">
+<mxfile host="app.diagrams.net" modified="2020-07-11T11:48:30.037Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="IgQLGwRj53EVvGf1OQtB" version="13.4.1" type="github" pages="16">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7181,7 +7181,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="pH_u4ZBXiA3Cut0DUfLI" name="促销中心uml">
-    <mxGraphModel dx="2213" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4787" dy="3049" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="r3j6iJXuTH6kC6Irwwvv-0" />
         <mxCell id="r3j6iJXuTH6kC6Irwwvv-1" parent="r3j6iJXuTH6kC6Irwwvv-0" />
@@ -7303,9 +7303,9 @@
             <mxPoint x="800" y="-80.06" as="sourcePoint" />
             <mxPoint x="960" y="-80.06" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="950" y="-630" />
-              <mxPoint x="1070" y="-630" />
-              <mxPoint x="1070" y="-440" />
+              <mxPoint x="985" y="-630" />
+              <mxPoint x="1120" y="-630" />
+              <mxPoint x="1120" y="-440" />
               <mxPoint x="645" y="-440" />
             </Array>
           </mxGeometry>
@@ -7315,9 +7315,9 @@
             <mxPoint x="320" y="-70.06" as="sourcePoint" />
             <mxPoint x="580" y="-310.06" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="420" y="-630" />
-              <mxPoint x="310" y="-630" />
-              <mxPoint x="310" y="-440" />
+              <mxPoint x="429" y="-630" />
+              <mxPoint x="290" y="-630" />
+              <mxPoint x="290" y="-440" />
               <mxPoint x="645" y="-440" />
             </Array>
           </mxGeometry>
@@ -7397,35 +7397,11 @@
         <mxCell id="g1GIgwIBjNtHn2srIxk_-83" value="+ getPolicyId ：bool                   //  促销ID &#xa;// 对一部分条件进行打包，如优惠券实现优惠策略和人的绑定；&#xa;// 促销活动实现优惠策略与供给端的绑定。&#xa;// 最终能否使用还要根据策略的使用规则来二次过滤&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-82">
           <mxGeometry y="40" width="350" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-94" value="PromotonActivity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="860" y="-594.06" width="180" height="114" as="geometry" />
-        </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-95" value="+ type : Enum(category/spu/sku)&#xa;+ identity : string&#xa;+ policyId : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-94">
-          <mxGeometry y="26" width="180" height="54" as="geometry" />
-        </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-96" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-94">
-          <mxGeometry y="80" width="180" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-97" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-94">
-          <mxGeometry y="88" width="180" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-90" value="Coupon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="340" y="-576.06" width="160" height="104" as="geometry" />
-        </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-91" value="+ userId: string&#xa;+ policyId : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-90">
-          <mxGeometry y="26" width="160" height="44" as="geometry" />
-        </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-92" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-90">
-          <mxGeometry y="70" width="160" height="8" as="geometry" />
-        </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-93" value="+ getUserId() : User" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-90">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
-        </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-20" value="«interface»&#xa;PromotionCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="340" y="-870" width="560" height="160" as="geometry" />
+          <mxGeometry x="340" y="-870" width="560" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-21" value="+ loadCouponList()                                               // 加载优惠券列表        =》  有哪些（依赖资格）&#xa;+ loadDynamicCompetencyList()                         // 加载无门槛促销列表 =》  有哪些（依赖资格）&#xa;+ loadPromotionActivityList()                               //  加载促销活动列表    =》  有哪些（依赖资格）&#xa;+ buildPolicyCollection()                                      //  构建促销策略集合    =》  有哪些（依赖资格）&#xa;+ buildCouponPolicyCollection()                         //  构建优惠券策略集合     =》 哪些能 （依赖使用规则）&#xa;+ buildDynamicCompetencyPolicyCollection()   //  构建动态资格策略集合  =》 哪些能 （依赖使用规则）&#xa;+ buildPromotionActivityPolicyCollection()         //  构建优惠活动策略集合  =》 哪些能 （依赖使用规则）&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-20">
-          <mxGeometry y="40" width="560" height="120" as="geometry" />
+        <mxCell id="b76XCjKFlTcXSxka2vOW-21" value="+ loadCouponList()                                               // 加载优惠券列表        =》  有哪些（依赖资格）&#xa;+ loadDynamicCompetencyList()                         // 加载无门槛促销列表 =》  有哪些（依赖资格）&#xa;+ loadPromotionActivityList()                               //  加载促销活动列表    =》  有哪些（依赖资格）&#xa;+ buildPolicyCollection()                                      //  构建促销策略集合    =》  有哪些（依赖资格）&#xa;+ buildCouponPolicyCollection()                         //  构建优惠券策略集合     =》 哪些能 （依赖使用规则）&#xa;+ buildDynamicCompetencyPolicyCollection()   //  构建动态资格策略集合  =》 哪些能 （依赖使用规则）&#xa;+ buildPromotionActivityPolicyCollection()         //  构建优惠活动策略集合  =》 哪些能 （依赖使用规则）&#xa;// 在资格的基础上拿到列”所属“列表后，根据使用规则拿到”可用“列表后&#xa;// 根据最大优惠或者用户选择，做匹配" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-20">
+          <mxGeometry y="40" width="560" height="150" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-22" value="«interface»&#xa;PromotionRule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
           <mxGeometry x="1131" y="-179.94" width="350" height="90" as="geometry" />
@@ -7466,16 +7442,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="g1GIgwIBjNtHn2srIxk_-56" value="«interface»&#xa;Policy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="1131" y="-340" width="349" height="90" as="geometry" />
+          <mxGeometry x="1131" y="-330" width="349" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="g1GIgwIBjNtHn2srIxk_-57" value="+ getConditionList() : []Competency                 // 资格列表 &#xa;+ getCondition($name string) : Competency    // 优惠资格&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-56">
-          <mxGeometry y="40" width="349" height="50" as="geometry" />
-        </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-42" value="«interface»&#xa;PromotionCollection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="1170" y="-818" width="290" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-43" value="+ calculate()                             // 计算促销&#xa;+ buildPromotionGroup()         // 构建促销分组&#xa;// 此处实现可以结合主站现在实现，基本可行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-42">
-          <mxGeometry y="40" width="290" height="70" as="geometry" />
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-57" value="+ getUseageRule : []Competency                 // 获取使用资格 &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-56">
+          <mxGeometry y="40" width="349" height="30" as="geometry" />
         </mxCell>
         <mxCell id="g1GIgwIBjNtHn2srIxk_-63" value="BooleanFilter" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
           <mxGeometry x="800" y="556" width="160" height="86" as="geometry" />
@@ -7531,6 +7501,12 @@
         <mxCell id="b76XCjKFlTcXSxka2vOW-7" value="+ code : string&#xa;+ name : string&#xa;+ type : Enum(bool/rangeList/valueList)&#xa;+ requiredValue : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-6">
           <mxGeometry y="26" width="250" height="64" as="geometry" />
         </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-42" value="«interface»&#xa;PromotionCollection" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=1;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="1168" y="-802" width="290" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-43" value="+ calculate()                             // 计算促销&#xa;+ buildPromotionGroup()         // 构建促销分组&#xa;// 此处实现可以结合主站现在实现，基本可行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-42">
+          <mxGeometry y="40" width="290" height="70" as="geometry" />
+        </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-48" value="SkuReduceCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
           <mxGeometry x="661" y="1170" width="220" height="84" as="geometry" />
         </mxCell>
@@ -7554,6 +7530,30 @@
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-59" value="+ calculate(SkuPromotionItem): Money" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-56">
           <mxGeometry y="68" width="240" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-90" value="Coupon" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="310" y="-600.06" width="237" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-91" value="+ userId: string&#xa;+ policyId : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-90">
+          <mxGeometry y="26" width="237" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-92" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-90">
+          <mxGeometry y="60" width="237" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-93" value="// 产品形态优惠券&#xa;// 用户领取、赠送、购买的优惠券&#xa;// 用户维度首选方案&#xa;// 增加用户参与感、减少成本、缩小数据集&#xa;// 提升性能、方便缓存" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-90">
+          <mxGeometry y="68" width="237" height="82" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-94" value="PromotonActivity" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="860" y="-600.06" width="250" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-95" value="+ type : Enum(category/spu/sku)&#xa;+ identity : string&#xa;+ policyId : string" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-94">
+          <mxGeometry y="26" width="250" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-96" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-94">
+          <mxGeometry y="80" width="250" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="g1GIgwIBjNtHn2srIxk_-97" value="// 产品形态促销活动&#xa;// 供给维度房东设置、报名、平台补贴&#xa;// 优点思考维度同代金券" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="g1GIgwIBjNtHn2srIxk_-94">
+          <mxGeometry y="88" width="250" height="62" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-69" value="OrderReduceCalculator" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
           <mxGeometry x="939" y="1170" width="220" height="140" as="geometry" />
@@ -7782,7 +7782,7 @@
           <mxGeometry y="60" width="320" height="40" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-110" value="&lt;p style=&quot;line-height: 60%&quot;&gt;&lt;/p&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;代金券使用规则&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;1、code = fullReduction&amp;nbsp; &amp;nbsp; name = 满减金额&amp;nbsp; &amp;nbsp; type = rangeList&amp;nbsp; &amp;nbsp; requiredValue = [&amp;nbsp; { minValue = 500,&amp;nbsp; &amp;nbsp;maxClose = true,&amp;nbsp; &amp;nbsp; maxValue =99999 ,&amp;nbsp; &amp;nbsp;maxClose = true}&amp;nbsp; ]&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;2、code = stackAble&amp;nbsp; &amp;nbsp; name = 是否可叠加&amp;nbsp; &amp;nbsp; type = bool&amp;nbsp; &amp;nbsp; requiredValue =&amp;nbsp; no&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;3、code = drawBackAble&amp;nbsp; name = 是否可退还&amp;nbsp; type = bool&amp;nbsp; requiredValue = yes&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;代金券发放规则&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;1、code = startDate&amp;nbsp; &amp;nbsp; name = 开始日期&amp;nbsp; &amp;nbsp; type = rangeList&amp;nbsp; &amp;nbsp; requiredValue = [{ minValue = “2020-07-18”,&amp;nbsp; &amp;nbsp;minClose = “yes”&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;,&amp;nbsp; &amp;nbsp; maxValue =&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;“2021-07-18”&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;,&amp;nbsp; &amp;nbsp;maxClose = &quot;yes&quot;}]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;2、code = endDate&amp;nbsp; &amp;nbsp; &amp;nbsp;name = 结束日期&amp;nbsp; &amp;nbsp; type = rangeList&amp;nbsp; &amp;nbsp; requiredValue = [{ minValue = “2020-07-20”,&amp;nbsp; &amp;nbsp;minClose = “yes”&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;,&amp;nbsp; &amp;nbsp; maxValue =&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;“2021-07-20”&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;,&amp;nbsp; &amp;nbsp;maxClose = &quot;yes&quot;}]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;3、code =&amp;nbsp;&lt;/font&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;acquireNumLimit&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; name = 领取次数限制&amp;nbsp; type = custom&amp;nbsp; requiredValue = [{ lifeCycleNum = 5,&amp;nbsp; &amp;nbsp;periodNum = 5&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;,&amp;nbsp; &amp;nbsp; periodDuration =&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp; 300&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;}]&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;4、code = effectiveTime&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; name = 频率限制&amp;nbsp; type = rangeList&amp;nbsp; requiredValue = [{ minValue = “0”,&amp;nbsp; &amp;nbsp;minClose = “yes”&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;,&amp;nbsp; &amp;nbsp; maxValue =&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;“5”&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;,&amp;nbsp; &amp;nbsp;maxClose = &quot;yes&quot;}]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontColor=#EA6B66;fillColor=#ffffff;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
-          <mxGeometry x="1470" y="720" width="950" height="290" as="geometry" />
+          <mxGeometry x="-270" y="710" width="950" height="290" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;startArrow=none;startFill=0;endArrow=classic;endFill=1;strokeColor=#000000;strokeWidth=1;fontColor=#000000;opacity=80;" edge="1" parent="r3j6iJXuTH6kC6Irwwvv-1" source="b76XCjKFlTcXSxka2vOW-117" target="b76XCjKFlTcXSxka2vOW-121">
           <mxGeometry relative="1" as="geometry" />
@@ -7813,7 +7813,7 @@
         <mxCell id="b76XCjKFlTcXSxka2vOW-33" value="+ getConditionList() : []Condition&#xa;+ getCondition($name string) : Condition&#xa;&#xa;// 获取规则（控制优惠券的领取、赠送、购买）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-30">
           <mxGeometry y="60" width="270" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="b76XCjKFlTcXSxka2vOW-26" value="UseRule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+        <mxCell id="b76XCjKFlTcXSxka2vOW-26" value="UseageRule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
           <mxGeometry x="1178" y="10.000000000000002" width="270" height="144" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-27" value="+ conditions: []Condition" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-26">
@@ -7948,6 +7948,9 @@
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-164" value="+ method(type): type&#xa;// 促销分组，默认配置成商家和平台即可&#xa;// 初期可以承担方代码配置" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="b76XCjKFlTcXSxka2vOW-161">
           <mxGeometry y="88" width="240" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="b76XCjKFlTcXSxka2vOW-165" value="&lt;p style=&quot;line-height: 60%&quot;&gt;&lt;/p&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;促销活动享用规则&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;1、code = fullReduction&amp;nbsp; &amp;nbsp; name = 满减金额&amp;nbsp; &amp;nbsp; type = rangeList&amp;nbsp; &amp;nbsp; requiredValue = [&amp;nbsp; { minValue = 500,&amp;nbsp; &amp;nbsp;maxClose = true,&amp;nbsp; &amp;nbsp; maxValue =99999 ,&amp;nbsp; &amp;nbsp;maxClose = true}&amp;nbsp; ]&lt;/font&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;2、code = stackAble&amp;nbsp; &amp;nbsp; name = 是否可叠加&amp;nbsp; &amp;nbsp; type = bool&amp;nbsp; &amp;nbsp; requiredValue =&amp;nbsp; no&lt;/span&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;3、code = drawBackAble&amp;nbsp; name = 是否可退还&amp;nbsp; type = bool&amp;nbsp; requiredValue = yes&lt;/span&gt;&lt;/p&gt;&lt;h1&gt;&lt;font color=&quot;#000000&quot;&gt;促销活动参与规则&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;1、code = startDate&amp;nbsp; &amp;nbsp; name = 开始日期&amp;nbsp; &amp;nbsp; type = rangeList&amp;nbsp; &amp;nbsp; requiredValue = [{ minValue = “2020-07-18”,&amp;nbsp; &amp;nbsp;minClose = “yes”&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;,&amp;nbsp; &amp;nbsp; maxValue =&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;“2021-07-18”&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;,&amp;nbsp; &amp;nbsp;maxClose = &quot;yes&quot;}]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;2、code = endDate&amp;nbsp; &amp;nbsp; &amp;nbsp;name = 结束日期&amp;nbsp; &amp;nbsp; type = rangeList&amp;nbsp; &amp;nbsp; requiredValue = [{ minValue = “2020-07-20”,&amp;nbsp; &amp;nbsp;minClose = “yes”&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;,&amp;nbsp; &amp;nbsp; maxValue =&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;“2021-07-20”&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;,&amp;nbsp; &amp;nbsp;maxClose = &quot;yes&quot;}]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;3、code =&amp;nbsp;&lt;/font&gt;&lt;span&gt;&lt;font color=&quot;#000000&quot;&gt;acquireNumLimit&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; name = 领取次数限制&amp;nbsp; type = custom&amp;nbsp; requiredValue = [{ lifeCycleNum = 5,&amp;nbsp; &amp;nbsp;periodNum = 5&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;,&amp;nbsp; &amp;nbsp; periodDuration =&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp; 300&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;}]&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;font color=&quot;#000000&quot;&gt;4、code = effectiveTime&lt;/font&gt;&lt;font color=&quot;#000000&quot;&gt;&amp;nbsp; name = 频率限制&amp;nbsp; type = rangeList&amp;nbsp; requiredValue = [{ minValue = “0”,&amp;nbsp; &amp;nbsp;minClose = “yes”&amp;nbsp;&lt;/font&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;,&amp;nbsp; &amp;nbsp; maxValue =&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;“5”&lt;/span&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&amp;nbsp;,&amp;nbsp; &amp;nbsp;maxClose = &quot;yes&quot;}]&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;span style=&quot;color: rgb(0 , 0 , 0)&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=0;fontColor=#EA6B66;fillColor=#ffffff;" vertex="1" parent="r3j6iJXuTH6kC6Irwwvv-1">
+          <mxGeometry x="2040" y="720" width="950" height="280" as="geometry" />
         </mxCell>
         <mxCell id="b76XCjKFlTcXSxka2vOW-77" value="模块划分" style="" parent="r3j6iJXuTH6kC6Irwwvv-0" visible="0" />
         <mxCell id="b76XCjKFlTcXSxka2vOW-101" value="" style="curved=1;endArrow=none;html=1;dashed=1;strokeColor=#000000;strokeWidth=1;fontColor=#EA6B66;opacity=80;endFill=0;" edge="1" parent="b76XCjKFlTcXSxka2vOW-77">
