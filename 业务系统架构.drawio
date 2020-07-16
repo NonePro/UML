@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-16T11:25:33.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="IV0fnTM-ecJA1QO_4b_O" version="13.4.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-07-16T11:33:45.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="bcrgsYsqEyTCAh3MaTaK" version="13.4.3" type="github" pages="14">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7335,7 +7335,7 @@
     
   </diagram>
   <diagram id="KmbRVU5_Z97Em70v42H9" name="聊天系统">
-    <mxGraphModel dx="1158" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2316" dy="1382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VOCIsevsxmRE0az-BHsj-0" />
         <mxCell id="VOCIsevsxmRE0az-BHsj-1" parent="VOCIsevsxmRE0az-BHsj-0" />
@@ -7389,10 +7389,10 @@
           <mxGeometry x="530" y="517" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-10" value="在线状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="627" y="517" width="80" height="30" as="geometry" />
+          <mxGeometry x="685" y="517" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-11" value="消息管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="730" y="517" width="80" height="30" as="geometry" />
+          <mxGeometry x="840" y="521" width="80" height="30" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-12" value="聊天&lt;br&gt;基础服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
           <mxGeometry x="280" y="480" width="80" height="200" as="geometry" />
@@ -7428,7 +7428,7 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="320" y="450" />
-              <mxPoint x="770" y="450" />
+              <mxPoint x="880" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -7443,7 +7443,7 @@
             <mxPoint x="749.9999999999998" y="500" as="targetPoint" />
             <Array as="points">
               <mxPoint x="320" y="469" />
-              <mxPoint x="750" y="469" />
+              <mxPoint x="860" y="469" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -7461,7 +7461,7 @@
             <Array as="points">
               <mxPoint x="1120" y="400" />
               <mxPoint x="1120" y="450" />
-              <mxPoint x="770" y="450" />
+              <mxPoint x="880" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -7498,7 +7498,7 @@
             <Array as="points">
               <mxPoint x="990" y="401" />
               <mxPoint x="990" y="450" />
-              <mxPoint x="770" y="450" />
+              <mxPoint x="880" y="450" />
             </Array>
           </mxGeometry>
         </mxCell>
