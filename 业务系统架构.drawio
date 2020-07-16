@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-16T11:19:29.662Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="dvCPB1C2cKjEUcHpuKS-" version="13.4.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-07-16T11:25:33.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="IV0fnTM-ecJA1QO_4b_O" version="13.4.3" type="github" pages="14">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7364,7 +7364,7 @@
         <mxCell id="VOCIsevsxmRE0az-BHsj-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;opacity=50;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-4" target="VOCIsevsxmRE0az-BHsj-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="657" y="905" />
+              <mxPoint x="657" y="880" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -7487,8 +7487,8 @@
         <mxCell id="VOCIsevsxmRE0az-BHsj-21" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
           <mxGeometry x="440" y="800" width="30" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-30" value="消息&lt;br&gt;分发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="510" y="580" width="40" height="29" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-30" value="消息分发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="850" y="390" width="80" height="29" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-43" value="&lt;h1 style=&quot;font-size: 22px&quot;&gt;待讨论&lt;/h1&gt;&lt;p&gt;1、通道服务是否做消息分发?&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;a、各服务针对特定类型消息进行订阅，减少订阅量&lt;/p&gt;&lt;p&gt;2、步骤1中直接异步入库会不会导致消息丢失&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;a、客户端配合，设备更换导致的瞬间丢失容忍&lt;/p&gt;&lt;p&gt;3、消息分发器通过MQ分发消息，订阅规则是怎样的？&lt;/p&gt;&lt;p&gt;4、tcp的收扩容操作&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
           <mxGeometry x="720" y="720" width="440" height="200" as="geometry" />
@@ -7527,7 +7527,7 @@
           <mxGeometry x="360" y="216" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-52" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="560" y="880" width="30" height="50" as="geometry" />
+          <mxGeometry x="560" y="860" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;opacity=50;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-57" target="VOCIsevsxmRE0az-BHsj-18">
           <mxGeometry relative="1" as="geometry" />
