@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-16T11:33:45.642Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="bcrgsYsqEyTCAh3MaTaK" version="13.4.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-07-17T01:42:24.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="it5gp2C-ryS47twuVeAG" version="13.4.3" type="github" pages="14">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7335,7 +7335,7 @@
     
   </diagram>
   <diagram id="KmbRVU5_Z97Em70v42H9" name="聊天系统">
-    <mxGraphModel dx="2316" dy="1382" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1362" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VOCIsevsxmRE0az-BHsj-0" />
         <mxCell id="VOCIsevsxmRE0az-BHsj-1" parent="VOCIsevsxmRE0az-BHsj-0" />
@@ -7397,25 +7397,17 @@
         <mxCell id="VOCIsevsxmRE0az-BHsj-12" value="聊天&lt;br&gt;基础服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
           <mxGeometry x="280" y="480" width="80" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-13" target="VOCIsevsxmRE0az-BHsj-14">
+        <mxCell id="VOCIsevsxmRE0az-BHsj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-13" target="VOCIsevsxmRE0az-BHsj-30">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="181" y="320" />
-              <mxPoint x="320" y="320" />
+              <mxPoint x="180" y="340" />
+              <mxPoint x="890" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-32" value="3、消息监听" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-31">
           <mxGeometry x="-0.0641" relative="1" as="geometry">
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-13" target="VOCIsevsxmRE0az-BHsj-17">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="181" y="320" />
-              <mxPoint x="1180" y="320" />
-            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-13" value="消息中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
@@ -7486,6 +7478,14 @@
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-21" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
           <mxGeometry x="440" y="800" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VOCIsevsxmRE0az-BHsj-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;opacity=50;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-30" target="VOCIsevsxmRE0az-BHsj-12">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="890" y="460" />
+              <mxPoint x="320" y="460" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-30" value="消息分发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
           <mxGeometry x="850" y="390" width="80" height="29" as="geometry" />
