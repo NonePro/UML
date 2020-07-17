@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-17T05:47:49.034Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="gaBl0VRvR8VibtQCtWmM" version="13.4.3" type="github" pages="15">
+<mxfile host="app.diagrams.net" modified="2020-07-17T07:07:11.806Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="pzjfPezqlKclYdRweozd" version="13.4.3" type="github" pages="16">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7516,76 +7516,94 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="muYTVy2VamLm4gPu1gMr" name="提醒">
-    <mxGraphModel dx="1042" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+  <diagram id="muYTVy2VamLm4gPu1gMr" name="提醒v1">
+    <mxGraphModel dx="1042" dy="712" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-0" />
         <mxCell id="9nohMBkBCUaKqpkHnNOW-1" parent="9nohMBkBCUaKqpkHnNOW-0" />
         <mxCell id="9nohMBkBCUaKqpkHnNOW-24" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9nohMBkBCUaKqpkHnNOW-1" source="9nohMBkBCUaKqpkHnNOW-10" target="9nohMBkBCUaKqpkHnNOW-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="9nohMBkBCUaKqpkHnNOW-25" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9nohMBkBCUaKqpkHnNOW-24">
+          <mxGeometry x="0.5958" relative="1" as="geometry">
+            <mxPoint x="-29" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9nohMBkBCUaKqpkHnNOW-26" value="n" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="9nohMBkBCUaKqpkHnNOW-24">
+          <mxGeometry x="-0.9014" y="-3" relative="1" as="geometry">
+            <mxPoint y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-19" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="9nohMBkBCUaKqpkHnNOW-1" source="9nohMBkBCUaKqpkHnNOW-11" target="9nohMBkBCUaKqpkHnNOW-12">
           <mxGeometry x="-1" y="3" relative="1" as="geometry">
-            <mxPoint x="430" y="190" as="sourcePoint" />
-            <mxPoint x="230" y="210" as="targetPoint" />
+            <mxPoint x="398" y="253" as="sourcePoint" />
+            <mxPoint x="198" y="273" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="395" y="170" />
-              <mxPoint x="395" y="170" />
+              <mxPoint x="363" y="233" />
+              <mxPoint x="363" y="233" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-21" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="9nohMBkBCUaKqpkHnNOW-1" source="9nohMBkBCUaKqpkHnNOW-10" target="9nohMBkBCUaKqpkHnNOW-14">
           <mxGeometry x="-0.6857" y="-30" relative="1" as="geometry">
-            <mxPoint x="405" y="160" as="sourcePoint" />
-            <mxPoint x="405" y="250" as="targetPoint" />
+            <mxPoint x="373" y="223" as="sourcePoint" />
+            <mxPoint x="373" y="313" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="395" y="30" />
-              <mxPoint x="670" y="30" />
+              <mxPoint x="363" y="93" />
+              <mxPoint x="638" y="93" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-22" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.816;exitY=1.058;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="9nohMBkBCUaKqpkHnNOW-1" source="9nohMBkBCUaKqpkHnNOW-11" target="9nohMBkBCUaKqpkHnNOW-16">
           <mxGeometry x="-0.8202" y="10" relative="1" as="geometry">
-            <mxPoint x="400" y="160" as="sourcePoint" />
-            <mxPoint x="610" y="145" as="targetPoint" />
+            <mxPoint x="368" y="223" as="sourcePoint" />
+            <mxPoint x="578" y="208" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="468" y="210" />
-              <mxPoint x="675" y="210" />
+              <mxPoint x="436" y="273" />
+              <mxPoint x="643" y="273" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-10" value="InfoRemindRecall" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-1">
-          <mxGeometry x="280" y="80" width="230" height="70" as="geometry" />
+          <mxGeometry x="248" y="143" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-11" value="+ type: Enum(remind/recall)&#xa;+ eventId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-10">
           <mxGeometry y="26" width="230" height="44" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-12" value="InfoChannelFilterRule" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-1">
-          <mxGeometry x="280" y="240" width="230" height="100" as="geometry" />
+          <mxGeometry x="248" y="303" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-13" value="+ terminal: Enum(emain/producesms/apns)&#xa;+ weight : int&#xa;+ remindRecallId : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-12">
-          <mxGeometry y="26" width="230" height="74" as="geometry" />
+          <mxGeometry y="26" width="230" height="54" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-6" value="InfoEvent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-1">
-          <mxGeometry x="80" y="100" width="160" height="70" as="geometry" />
+          <mxGeometry x="48" y="163" width="160" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-7" value="+ eventNo: String&#xa;+ eventName : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-6">
           <mxGeometry y="26" width="160" height="44" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-14" value="InfoDisplayText" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-1">
-          <mxGeometry x="560" y="60" width="230" height="110" as="geometry" />
+          <mxGeometry x="528" y="123" width="230" height="110" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-23" value="+ remindRecallId : int&#xa;+ content: String&#xa;+ oldContent : String&#xa;+ shortContent : String&#xa;+ oldShortContent : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-14">
           <mxGeometry y="26" width="230" height="84" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-16" value="InfoDisplayStrategy" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-1">
-          <mxGeometry x="560" y="240" width="230" height="80" as="geometry" />
+          <mxGeometry x="528" y="303" width="230" height="80" as="geometry" />
         </mxCell>
         <mxCell id="9nohMBkBCUaKqpkHnNOW-17" value="+ remindRecallId: int&#xa;+ frequency : int&#xa;+ delayTime : int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-16">
           <mxGeometry y="26" width="230" height="54" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="RLdHbJXiUakN9_f9vKXE" name="提醒V3">
+    <mxGraphModel dx="1042" dy="712" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="PqP_pvHStecpdsYmReO4-0" />
+        <mxCell id="PqP_pvHStecpdsYmReO4-1" parent="PqP_pvHStecpdsYmReO4-0" />
       </root>
     </mxGraphModel>
   </diagram>
