@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-17T01:42:24.165Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="it5gp2C-ryS47twuVeAG" version="13.4.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-07-17T02:32:36.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="hQqKfFW1PvbGIYcxP6xg" version="13.4.3" type="github" pages="14">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7335,210 +7335,183 @@
     
   </diagram>
   <diagram id="KmbRVU5_Z97Em70v42H9" name="聊天系统">
-    <mxGraphModel dx="1362" dy="813" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1158" dy="691" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="VOCIsevsxmRE0az-BHsj-0" />
         <mxCell id="VOCIsevsxmRE0az-BHsj-1" parent="VOCIsevsxmRE0az-BHsj-0" />
         <mxCell id="VOCIsevsxmRE0az-BHsj-7" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="440" y="480" width="530" height="201" as="geometry" />
+          <mxGeometry x="443" y="480" width="295" height="201" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-2" target="VOCIsevsxmRE0az-BHsj-13">
+        <mxCell id="VOCIsevsxmRE0az-BHsj-70" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-2" target="VOCIsevsxmRE0az-BHsj-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="530" y="740" />
-              <mxPoint x="181" y="740" />
+              <mxPoint x="433" y="621" />
+              <mxPoint x="433" y="728" />
+              <mxPoint x="303" y="728" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-26" value="2、MQ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-19">
-          <mxGeometry x="0.2423" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-71" value="2、消息广播" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-70">
+          <mxGeometry x="0.3779" relative="1" as="geometry">
+            <mxPoint x="-4.5" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-2" value="ServerA" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="500" y="570" width="60" height="101" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-2" value="TCP&lt;br&gt;Server&lt;br&gt;A" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="500" y="570" width="40" height="101" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-3" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="500" y="507" width="440" height="50" as="geometry" />
+          <mxGeometry x="500" y="507" width="216" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;opacity=50;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-4" target="VOCIsevsxmRE0az-BHsj-52">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="657" y="880" />
+              <mxPoint x="580" y="755" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-56" value="收到消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-55">
           <mxGeometry x="-0.0913" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="9" y="7" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-4" value="ServerB" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="627" y="570" width="60" height="101" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-4" value="TCP&lt;br&gt;Server&lt;br&gt;B" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="560" y="570" width="40" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-5" value="ServerC" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="753" y="570" width="60" height="101" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-5" value="TCP&lt;br&gt;Server&lt;br&gt;C" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="618" y="570" width="40" height="101" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-6" value="ServerD" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="880" y="570" width="60" height="101" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-6" value="TCP&lt;br&gt;Server&lt;br&gt;D" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="675" y="570" width="40" height="101" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-8" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;基础通道&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="461" y="521" width="20" height="110" as="geometry" />
+          <mxGeometry x="457" y="517" width="20" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-9" value="设备管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="530" y="517" width="80" height="30" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-9" value="设备&lt;br&gt;管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="505" y="517" width="45" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-10" value="在线状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="685" y="517" width="80" height="30" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-10" value="在线&lt;br&gt;状态" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="559" y="517" width="45" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-11" value="消息管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="840" y="521" width="80" height="30" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-11" value="消息&lt;br&gt;管理" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="612" y="516.9999999999999" width="45" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-12" value="聊天&lt;br&gt;基础服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="280" y="480" width="80" height="200" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-12" value="聊天&lt;br&gt;基础&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="375" y="480" width="50" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-13" target="VOCIsevsxmRE0az-BHsj-30">
+        <mxCell id="VOCIsevsxmRE0az-BHsj-72" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-13" target="VOCIsevsxmRE0az-BHsj-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="180" y="340" />
-              <mxPoint x="890" y="340" />
+              <mxPoint x="303" y="340" />
+              <mxPoint x="404" y="340" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-32" value="3、消息监听" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-31">
-          <mxGeometry x="-0.0641" relative="1" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-73" value="3、消息监听" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-72">
+          <mxGeometry x="-0.1298" y="1" relative="1" as="geometry">
+            <mxPoint x="7.4" y="-9" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-13" value="消息中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="140" y="360" width="81" height="320" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-13" target="VOCIsevsxmRE0az-BHsj-44">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="303" y="340" />
+              <mxPoint x="779" y="340" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-14" target="VOCIsevsxmRE0az-BHsj-12">
+        <mxCell id="VOCIsevsxmRE0az-BHsj-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-13" target="VOCIsevsxmRE0az-BHsj-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="303" y="340" />
+              <mxPoint x="841" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VOCIsevsxmRE0az-BHsj-13" value="消息&lt;br&gt;中心" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="282" y="360" width="42" height="320" as="geometry" />
+        </mxCell>
+        <mxCell id="VOCIsevsxmRE0az-BHsj-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-14" target="VOCIsevsxmRE0az-BHsj-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;opacity=50;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-14" target="VOCIsevsxmRE0az-BHsj-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="320" y="450" />
-              <mxPoint x="880" y="450" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="VOCIsevsxmRE0az-BHsj-14" value="聊天&lt;br&gt;管理&lt;br&gt;前台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="375" y="358" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-40" value="消息状态查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-39">
-          <mxGeometry x="-0.2076" y="-1" relative="1" as="geometry">
-            <mxPoint x="-2" y="-1" as="offset" />
-          </mxGeometry>
+        <mxCell id="VOCIsevsxmRE0az-BHsj-16" value="服务A&lt;br&gt;基础&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="816" y="481" width="50" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" target="VOCIsevsxmRE0az-BHsj-11">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320.0344827586207" y="438.9999999999999" as="sourcePoint" />
-            <mxPoint x="749.9999999999998" y="500" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="320" y="469" />
-              <mxPoint x="860" y="469" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-14" value="聊天&lt;br&gt;管理前台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="280" y="360" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-16" value="服务A&lt;br&gt;基础服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="1140" y="480" width="80" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-17" target="VOCIsevsxmRE0az-BHsj-16">
+        <mxCell id="VOCIsevsxmRE0az-BHsj-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-17" target="VOCIsevsxmRE0az-BHsj-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fillColor=#f5f5f5;strokeColor=#666666;opacity=50;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-17" target="VOCIsevsxmRE0az-BHsj-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1120" y="400" />
-              <mxPoint x="1120" y="450" />
-              <mxPoint x="880" y="450" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-42" value="消息状态查询" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-41">
-          <mxGeometry x="0.3111" y="1" relative="1" as="geometry">
-            <mxPoint x="44" y="-2" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-17" value="服务A&lt;br&gt;管理前台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="1140" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-17" value="服务A&lt;br&gt;管理&lt;br&gt;前台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="816" y="361" width="50" height="80" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-18" value="网关" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="440" y="360" width="530" height="80" as="geometry" />
+          <mxGeometry x="440" y="360" width="302" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-21" target="VOCIsevsxmRE0az-BHsj-2">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-21" target="VOCIsevsxmRE0az-BHsj-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="520" y="805" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-25" value="1、发送消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-24">
+        <mxCell id="VOCIsevsxmRE0az-BHsj-25" value="1、发送消息（同步或者异步入库）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-24">
           <mxGeometry x="0.1345" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-50" y="24" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-21" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="440" y="800" width="30" height="50" as="geometry" />
+          <mxGeometry x="349" y="780" width="30" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;opacity=50;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-30" target="VOCIsevsxmRE0az-BHsj-12">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="890" y="460" />
-              <mxPoint x="320" y="460" />
-            </Array>
-          </mxGeometry>
+        <mxCell id="VOCIsevsxmRE0az-BHsj-30" value="身份认证" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="636" y="390" width="80" height="29" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-30" value="消息分发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="850" y="390" width="80" height="29" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-43" value="&lt;h1 style=&quot;font-size: 22px&quot;&gt;待讨论&lt;/h1&gt;&lt;p&gt;1、通道服务是否做消息分发?&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;基础通道对tcp通道内流转的消息进行建模，如果需要减少订阅方无效消息，可以在管理前台做统一的消息分发机制。&lt;/p&gt;&lt;p&gt;2、步骤1中异步入库如何保证消息不丢失&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 初期业务场景下接受极端情况下的消息丢失，后续可以分别引入客户端服务端双向校验，如果有进一步要求引入消息最终一致性实现方案。&lt;/p&gt;&lt;p&gt;3、tcp的收扩容操作&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; tcp server 允许一个端同时连接多个服务实例，具备切换窗口兼容能力&lt;/p&gt;&lt;p&gt;4、tcp server 是否直接入库&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; 初期可以在tcp直接入库，后续消息量较大，数据库压力增大时通过消息异步入库&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="884" y="361" width="487" height="301" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-43" value="&lt;h1 style=&quot;font-size: 22px&quot;&gt;待讨论&lt;/h1&gt;&lt;p&gt;1、通道服务是否做消息分发?&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;a、各服务针对特定类型消息进行订阅，减少订阅量&lt;/p&gt;&lt;p&gt;2、步骤1中直接异步入库会不会导致消息丢失&lt;/p&gt;&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;a、客户端配合，设备更换导致的瞬间丢失容忍&lt;/p&gt;&lt;p&gt;3、消息分发器通过MQ分发消息，订阅规则是怎样的？&lt;/p&gt;&lt;p&gt;4、tcp的收扩容操作&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="720" y="720" width="440" height="200" as="geometry" />
-        </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fillColor=#f5f5f5;strokeColor=#666666;opacity=50;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-44" target="VOCIsevsxmRE0az-BHsj-11">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="990" y="401" />
-              <mxPoint x="990" y="450" />
-              <mxPoint x="880" y="450" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-44" target="VOCIsevsxmRE0az-BHsj-45">
+        <mxCell id="VOCIsevsxmRE0az-BHsj-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-44" target="VOCIsevsxmRE0az-BHsj-45">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-44" value="提醒&lt;br&gt;管理前台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="1010" y="361" width="80" height="80" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-44" value="提醒&lt;br&gt;管理&lt;br&gt;前台" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="754" y="360" width="50" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-45" value="提醒&lt;br&gt;基础服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="1010" y="481" width="80" height="200" as="geometry" />
+        <mxCell id="VOCIsevsxmRE0az-BHsj-45" value="提醒&lt;br&gt;基础&lt;br&gt;服务" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="754" y="481" width="50" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="VOCIsevsxmRE0az-BHsj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-49" target="VOCIsevsxmRE0az-BHsj-18">
+        <mxCell id="VOCIsevsxmRE0az-BHsj-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-49" target="VOCIsevsxmRE0az-BHsj-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="572" y="240" />
+              <mxPoint x="572" y="291" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-51" value="请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-50">
           <mxGeometry x="-0.4113" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-49" value="" style="aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.mscae.enterprise.android_phone" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="360" y="216" width="30" height="50" as="geometry" />
+          <mxGeometry x="360" y="266" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-52" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="560" y="860" width="30" height="50" as="geometry" />
+          <mxGeometry x="826" y="730" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;opacity=50;" edge="1" parent="VOCIsevsxmRE0az-BHsj-1" source="VOCIsevsxmRE0az-BHsj-57" target="VOCIsevsxmRE0az-BHsj-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-59" value="请求token" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VOCIsevsxmRE0az-BHsj-58">
           <mxGeometry x="-0.429" y="-1" relative="1" as="geometry">
-            <mxPoint x="12.06" y="1" as="offset" />
+            <mxPoint x="-23" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-57" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shadow=0;dashed=0;strokeWidth=1;shape=mxgraph.android.phone2;strokeColor=#c0c0c0;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
-          <mxGeometry x="1001" y="214" width="30" height="50" as="geometry" />
+          <mxGeometry x="824" y="266" width="30" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VOCIsevsxmRE0az-BHsj-66" value="消息分发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="464" y="386.5" width="80" height="29" as="geometry" />
+        </mxCell>
+        <mxCell id="VOCIsevsxmRE0az-BHsj-69" value="消息&lt;br&gt;分发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
+          <mxGeometry x="666" y="516.9999999999999" width="45" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
