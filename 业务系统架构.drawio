@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-17T02:32:36.402Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="hQqKfFW1PvbGIYcxP6xg" version="13.4.3" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2020-07-17T05:21:31.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36" etag="SWt0UpYNeq4Grto9Y1eO" version="13.4.3" type="github" pages="15">
   <diagram id="XfgUZCqZ-UhJJhVUizb4" name="业务演进视角看中台">
     <mxGraphModel dx="1033" dy="658" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#707B89" math="0" shadow="0">
       <root>
@@ -7512,6 +7512,20 @@
         </mxCell>
         <mxCell id="VOCIsevsxmRE0az-BHsj-69" value="消息&lt;br&gt;分发" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#000000;fillColor=none;" vertex="1" parent="VOCIsevsxmRE0az-BHsj-1">
           <mxGeometry x="666" y="516.9999999999999" width="45" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="muYTVy2VamLm4gPu1gMr" name="提醒">
+    <mxGraphModel dx="1042" dy="691" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="9nohMBkBCUaKqpkHnNOW-0" />
+        <mxCell id="9nohMBkBCUaKqpkHnNOW-1" parent="9nohMBkBCUaKqpkHnNOW-0" />
+        <mxCell id="9nohMBkBCUaKqpkHnNOW-6" value="InfoEvent" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#000000;fillColor=none;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-1">
+          <mxGeometry x="80" y="80" width="160" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9nohMBkBCUaKqpkHnNOW-7" value="+ eventNo: String&#xa;+ eventName : String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="9nohMBkBCUaKqpkHnNOW-6">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
