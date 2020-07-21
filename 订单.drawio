@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-07-21T11:56:56.387Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="nXBfsFhnJlfZc_JFTvTU" version="13.4.5" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2020-07-21T11:57:45.522Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36" etag="ACdwyXaD64ReltdyaAGX" version="13.4.5" type="github" pages="2">
   <diagram id="gAt-9Gm0yhOiKPh7kjHq" name="提交订单">
     <mxGraphModel dx="1083" dy="1079" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -479,7 +479,7 @@
             <mxPoint x="7" y="-8" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ahgxw3OeHbJRb-oqSajo-83" value="：消息中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="8MQQOa8CTJbcQH2kje4L-1">
+        <mxCell id="ahgxw3OeHbJRb-oqSajo-83" value=":消息中心" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;labelBackgroundColor=none;fontSize=12;" vertex="1" parent="8MQQOa8CTJbcQH2kje4L-1">
           <mxGeometry x="823" y="37" width="100" height="740" as="geometry" />
         </mxCell>
         <mxCell id="ahgxw3OeHbJRb-oqSajo-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ahgxw3OeHbJRb-oqSajo-83">
